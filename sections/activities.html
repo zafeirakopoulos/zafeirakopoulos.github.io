@@ -1,0 +1,126 @@
+<h2>Activities</h2>
+<div id="talksmap" style="width:100px;height:400px;text-align:center;"></div>
+
+
+
+<script>
+ 
+	var mapProp = {
+	      center:new google.maps.LatLng(30.3661888,14.513888),
+	      zoom: 2,
+	      mapTypeId:google.maps.MapTypeId.ROADMAP
+	};
+	talksmap=document.getElementById("talksmap");
+  	$("#talksmap").css("width", "100%").css("height", 400);
+  	var map=new google.maps.Map(talksmap,mapProp);
+	for (i in talk_markers){
+		var marker = new google.maps.Marker({
+			position: new google.maps.LatLng(talk_markers[i]["lat"],talk_markers[i]["lng"]),
+			map: map,
+			title: talk_markers[i]["title"],
+
+		});
+		marker.info = new google.maps.InfoWindow({
+		  content: formatTick(talk_markers[i]["info"])
+		});
+
+		google.maps.event.addListener(marker, 'click', function() {  
+		    var marker_map = this.getMap();
+		    this.info.open(marker_map,this);
+		});
+
+	}
+ 
+
+			function formatTick(dataList){
+				html="";
+
+ 
+				for (i in dataList){
+					data=dataList[i];
+ 
+					html+= data.title+"<br>";
+					//html+= "<h4>"+data.title+"</h4><p>";
+					if (data.type=="talk"){
+						html+= "I gave a talk in the ";					
+						html+= data.where
+						if (data.why){
+							html+= " on the occasion of";
+							html+= data.why + ".";
+						}else{html+= ".";}
+						html+= "The topic was ";					
+						html+= "\"" + data.topic + "\"" ;
+					}
+					if (data.type=="visit"){
+						html+= "Visiting ";					
+						html+= data.whom;
+						html+= " in ";
+						html+= data.where;
+						if (data.what){
+							html+= " working on ";
+							html+= data.what;
+						}
+						if (data.why){
+							html+= " on the occasion of ";
+							html+= data.why;
+						}	
+						if (data.when){
+							html+= " in ";	
+							html+= data.when;						
+						}
+						if (data.during){
+							html+= " during ";	
+							html+= data.during;						
+						}
+						if (data.from){
+							html+= " from ";	
+							html+= data.from;						
+						}
+						if (data.to){
+							html+= " to ";	
+							html+= data.to;						
+						}						
+					}					
+					if (data.type=="workshop"){
+						html+= "Attending ";					
+						html+= data.what;
+						html+= " in ";
+						html+= data.where;
+						if (data.why){
+							html+= " on the occasion of ";
+							html+= data.why;
+						}	
+						if (data.when){
+							html+= " in ";	
+							html+= data.when;						
+						}
+						if (data.during){
+							html+= " during ";	
+							html+= data.during;						
+						}
+						if (data.from){
+							html+= " from ";	
+							html+= data.from;						
+						}
+						if (data.to){
+							html+= " to ";	
+							html+= data.to;						
+						}							
+						html+= ".";						
+					}					
+					if (data.type=="workshop_organize"){
+						html+= "Organizing ";					
+						html+= data.what;
+						html+= " in ";
+						html+= data.where;
+						if (data.why){
+							html+= " on the occasion of ";
+							html+= data.why;
+						}					
+						html+= ".";						
+					}					
+					html+= "<br>";
+ 				}
+ 				return html;
+			}
+</script>

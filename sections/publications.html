@@ -1,0 +1,29 @@
+<h2>Publications</h2>
+<div id="pubstab">
+	<div id="visbibtex" style="display:none"></div>
+        <div id="visdiv" class="display" width="100%"></div>
+	<div id="viscont" class="container" style="display:none">
+		<table id="visTable" style="display:none" width="100%"></table>
+	</div>
+	<script>$("#visbibtex").load("static/all.bib",function(){bibtexify("#visbibtex", "visTable",{'visualization': true, 'tableNotVisible': true, 'wheretoputchart':'visdiv'});});
+</script> 
+
+
+	<div id="bibtex"></div>
+	<div class="container">
+		<h3>Publications</h3>
+		<br>
+		<table id="pubTable" class="display" width="100%"></table>
+	</div>
+	<script>$("#bibtex").load("static/zaf.bib",function(){bibtexify("#bibtex", "pubTable",{'visualization': false, 'howpublished': true});});</script> 
+
+	<div id="preprintbibtex"></div>
+	<div class="container">
+		<h3>Preprints, Conference Posters and Technical Reports</h3>
+		<br>
+		<table id="preprintTable" class="display" width="100%"></table>
+	</div>
+
+	<script>$("#preprintbibtex").load("static/preprint.bib",function(){bibtexify("#preprintbibtex", "preprintTable",{'visualization': false, 'howpublished': false});});</script> 
+</div>
+
