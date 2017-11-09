@@ -333,15 +333,14 @@
                 <h2>Publications</h2>
                 <div id="pubstab">
                 	<div id="visbibtex" style="display:none"></div>
-                        <div id="visdiv" class="display" width="100%"></div>
+                    <div id="visdiv" class="display" width="100%"></div>
                 	<div id="viscont" class="container" style="display:none">
                 		<table id="visTable" style="display:none" width="100%"></table>
                 	</div>
-                	<script>$("#visbibtex").load("static/all.bib",function(){bibtexify("#visbibtex", "visTable",{'visualization': true, 'tableNotVisible': true, 'wheretoputchart':'visdiv'});});
-                </script>
+                	<script>$("#visbibtex").load("static/all.bib",function(){bibtexify("#visbibtex", "visTable",{'visualization': true, 'tableNotVisible': true, 'wheretoputchart':'visdiv'});});</script>
 
 
-                	<div id="bibtex"></div>
+                	<!-- <div id="bibtex"></div>
                 	<div class="container">
                 		<h3>Publications</h3>
                 		<br>
@@ -356,7 +355,7 @@
                 		<table id="preprintTable" class="display" width="100%"></table>
                 	</div>
 
-                	<script>$("#preprintbibtex").load("static/preprint.bib",function(){bibtexify("#preprintbibtex", "preprintTable",{'visualization': false, 'howpublished': false});});</script>
+                	<script>$("#preprintbibtex").load("static/preprint.bib",function(){bibtexify("#preprintbibtex", "preprintTable",{'visualization': false, 'howpublished': false});});</script> -->
                 </div>
             </div>
         </div>
@@ -399,18 +398,7 @@
                 <h4>Email</h4>
                     <a href="mailto::zafeirakopoulos@gtu.edu.tr">zafeirakopoulos {at} gtu.edu.tr</a>
 
-                <!-- <script src="http://maps.googleapis.com/maps/api/js"></script>
-                <script>
-                function initialize() {
-                    var mapProp = {
-                        center:new google.maps.LatLng(40.8087963,29.3637439),
-                        zoom:13,
-                        mapTypeId:google.maps.MapTypeId.ROADMAP
-                    };
-                    var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-                }
-                google.maps.event.addDomListener(window, 'load', initialize);
-                </script> -->
+
                 <div class="social-class">
                 <a target="_blank" href="http://bte.gtu.edu.tr/en/zafeirakis-zafeirakopoulos-2/" class="btn btn-social-icon btn-lg btn-google" ><span class="fa fa-institution"></span></a>
                 <a target="_blank" href="mailto:zafeirakopoulos@gmail.com"   class="btn btn-social-icon btn-lg btn-google"   ><span class="fa fa-google"></span></a>
