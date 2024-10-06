@@ -1,4 +1,5 @@
 ---
+layout: post
 active: True
 date: 2022-08-08
 ---
