@@ -232,6 +232,7 @@ exclude:
 # TODO remove from exclude if I want some of the _pages
   - _pages/blog.md
   - _pages/profiles.md
+  - _pages/dropdown.md
   - bin/
   - CONTRIBUTING.md
   - CUSTOMIZE.md
@@ -246,7 +247,6 @@ exclude:
   - lighthouse_results/
   - package.json
   - package-lock.json
-  - _pages/about_einstein.md
   - purgecss.config.js
   - README.md
   - readme_preview/
