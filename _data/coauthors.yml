@@ -1,34 +1,86 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Tsigaridas":
+  - firstname: ["Elias", "E."]
+    url: https://who.paris.inria.fr/Elias.Tsigaridas/index.html
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Emiris":
+  - firstname: ["Ioannis", "I. Z."]
+    url: https://cgi.di.uoa.gr/~emiris/
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Rahkooy":
+  - firstname: ["Hamid", "H."]
+    url: https://people.maths.ox.ac.uk/rahkooy/bio.html
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Karavelas":
+  - firstname: ["Menelaos", "m."]
+    url: https://scholar.google.com/citations?user=PUeH4xMAAAAJ&hl=en
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Mourrain":
+  - firstname: ["Bernard", "B."]
+    url: https://www-sop.inria.fr/members/Bernard.Mourrain/
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"Koeppe":
+  - firstname: ["Matthias", "M."]
+    url: https://www.math.ucdavis.edu/~mkoeppe/
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"Beck":
+  - firstname: ["Matthias", "M."]
+    url: https://matthbeck.github.io/
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"Simos":
+  - firstname: ["Dimitris E.", "D. E." ]
+    url: https://www.sba-research.org/team/dimitris-e-simos/
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"Koukouvinos":
+  - firstname: ["Christos", "C."]
+    url: https://scholar.google.com/citations?user=XV73_qEAAAAJ&hl=en
+
+"Mantzaflaris":
+  - firstname: ["Angelos", "A."]
+    url: https://www-sop.inria.fr/members/Angelos.Mantzaflaris/
+
+"Katsamaki":
+  - firstname: ["Christina", "C."]
+    url: https://webusers.imj-prg.fr/~christina.katsamaki/
+
+"Rouillier":
+  - firstname: ["Fabrice", "F."]
+    url: https://who.rocq.inria.fr/Fabrice.Rouillier/
+
+"Braun":
+  - firstname: ["Benjamin", "B."]
+    url: https://sites.google.com/view/braunmath/home
+
+"Savage":
+  - firstname: ["Carla D.", "CD"]
+    url: https://www.csc.ncsu.edu/people/SAVAGE
+
+"Breuer":
+  - firstname: ["Felix", "F."]
+    url: http://www.felixbreuer.net/
+
+"Pillwein":
+  - firstname: ["Veronika", "V."]
+    url: https://risc.jku.at/m/veronika-pillwein/
+
+"Tzanaki":
+  - firstname: ["Eleni", "E."]
+    url: https://sites.google.com/site/tzanakel/home
+
+"Karasoulou":
+  - firstname: ["Anna", "A."]
+    url: http://users.uoa.gr/~akarasou/
+
+"Limbach":
+  - firstname: ["Sebastian", "S."]
+    url: https://www.researchgate.net/profile/Sebastian-Limbach
+
+"Konaxis":
+  - firstname: ["Christos", "C."]
+    url: https://cgi.di.uoa.gr/~ckonaxis/
+
+"Hemmer":
+  - firstname: ["Michael", "M."]
+    url: https://scholar.google.com/citations?user=GfxDvHkAAAAJ&hl=en
+
+"Onal":
+  - firstname: ["Umutcan", "U."] 
