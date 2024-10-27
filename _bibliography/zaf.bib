@@ -2,17 +2,36 @@
 ---
 
 
-@inproceedings{Onal2019,
-author="{\"O}nal, Umutcan
-and Zafeirakopoulos, Zafeirakis",
-title="A Machine Learning Framework For Volume Prediction",
-bookTitle="Special Event on Analysis of Experimental Algorithms (SEA2
- 2019)",
-year="2019",
-publisher="Springer International Publishing",
+ @book{macis2019,
+  editor    = {Daniel Slamanig and
+               Elias P. Tsigaridas and
+               Zafeirakis Zafeirakopoulos},
+  title     = {Mathematical Aspects of Computer and Information Sciences - 8th International
+               Conference, {MACIS} 2019, Gebze, Turkey, November 13-15, 2019, Revised
+               Selected Papers},
+  series    = {Lecture Notes in Computer Science},
+  volume    = {11989},
+  publisher = {Springer},
+  year      = {2020},
+  url       = {https://doi.org/10.1007/978-3-030-43120-4},
+  doi       = {10.1007/978-3-030-43120-4},
+  isbn      = {978-3-030-43119-8},
+  timestamp = {Thu, 19 Mar 2020 11:24:46 +0100},
+  biburl    = {https://dblp.org/rec/conf/macis/2019.bib},
+  bibsource = {dblp computer science bibliography, https://dblp.org}
 }
 
-@article{KATSAMAKI2023427,
+@book{ACA2022,
+  editor    = {Michela Ceria amd Ilias Kotsireas amd Teo Mora and Zafeirakis Zafeirakopoulos},
+  title     = {Special Issue for 27th International Conference on Applications of Computer Algebra (Istanbul, August 2022), Selected papers},
+  series    = {Applicable Algebra in Engineering, Communication and Computing},
+  publisher = {Springer},
+  year      = {2023},
+  doi       = {10.1007/s00200-023-00635-1}
+}
+
+
+@article{ptopo2023,
 title = {PTOPO: Computing the geometry and the topology of parametric curves},
 journal = {Journal of Symbolic Computation},
 volume = {115},
@@ -24,26 +43,10 @@ url = {https://www.sciencedirect.com/science/article/pii/S0747717122000785},
 author = {Christina Katsamaki and Fabrice Rouillier and Elias Tsigaridas and Zafeirakis Zafeirakopoulos},
 keywords = {Parametric curve, Topology, Bit complexity, Polynomial systems},
 abstract = {We consider the problem of computing the topology and describing the geometry of a parametric curve in Rn. We present an algorithm, PTOPO, that constructs an abstract graph that is isotopic to the curve in the embedding space. Our method exploits the benefits of the parametric representation and does not resort to implicitization. Most importantly, we perform all computations in the parameter space and not in the implicit space. When the parametrization involves polynomials of degree at most d and maximum bitsize of coefficients τ, then the worst case bit complexity of PTOPO is O˜B(nd6+nd5τ+d4(n2+nτ)+d3(n2τ+n3)+n3d2τ). This bound matches the current record bound O˜B(d6+d5τ) for the problem of computing the topology of a plane algebraic curve given in implicit form. For plane and space curves, if N=max⁡{d,τ}, the complexity of PTOPO becomes O˜B(N6), which improves the state-of-the-art result, due to Alcázar and Díaz-Toca [CAGD'10], by a factor of N10. In the same time complexity, we obtain a graph whose straight-line embedding is isotopic to the curve. However, visualizing the curve on top of the abstract graph construction, increases the bound to O˜B(N7). For curves of general dimension, we can also distinguish between ordinary and non-ordinary real singularities and determine their multiplicities in the same expected complexity of PTOPO by employing the algorithm of Blasco and Pérez-Díaz [CAGD'19]. We have implemented PTOPO in maple for the case of plane and space curves. Our experiments illustrate its practical nature.},
-selected = true
-}
-
- @inproceedings{Fisikopoulos2017,
-author="Fisikopoulos, Vissarion
-and Zafeirakopoulos, Zafeirakis",
-editor="Bl{\"o}mer, Johannes
-and Kotsireas, Ilias S.
-and Kutsia, Temur
-and Simos, Dimitris E.",
-title="Experimental Study of the Ehrhart Interpolation Polytope",
-bookTitle="Mathematical Aspects of Computer and Information Sciences: 7th International Conference, MACIS 2017, Vienna, Austria, November 15-17, 2017, Proceedings",
-year="2017",
-publisher="Springer International Publishing",
-address="Cham",
-pages="320--324",
-abstract="In this paper we define a family of polytopes called Ehrhart Interpolation Polytopes with respect to a given polytope and a parameter corresponding to the dilation of the polytope. We experimentally study the behavior of the number of lattice points in each member of the family, looking for a member with a single lattice point. That single lattice point is the h* vector of the given polytope. Our study is motivated by efficient algorithms for lattice point enumeration.",
-isbn="978-3-319-72453-9",
-doi="10.1007/978-3-319-72453-9_26",
-url="https://doi.org/10.1007/978-3-319-72453-9_26"
+bibtex_show = true,
+selected = true,
+arxiv = "2101.01925",
+code = "../software/#ptopo"
 }
 
 
@@ -62,8 +65,12 @@ abstract="Polyhedral Omega is a new algorithm for solving linear Diophantine sys
 issn="0219-3094",
 doi="10.1007/s00026-017-0349-x",
 url="https://doi.org/10.1007/s00026-017-0349-x",
-selected = true
+bibtex_show = true,
+selected = true,
+arxiv = "1501.07773",
+code = "../software/#polyhedral-omega"
 }
+
 
 
 @article{Beck2016,
@@ -77,7 +84,9 @@ year = {2016},
 doi = {10.1137/15M1036907},
 URL = {http://dx.doi.org/10.1137/15M1036907},
 eprint = {http://dx.doi.org/10.1137/15M1036907},
-selected = true
+bibtex_show = true,
+selected = true,
+arxiv = "1508.04619"
 }
 
 @article{Mantzaflaris2016,
@@ -100,7 +109,6 @@ keywords = "Algebraic curves "
 }
 
 
-
 @article{beck2012s,
 year={2014},
 issn={1382-4090},
@@ -112,9 +120,10 @@ publisher={Springer US},
 keywords={Lecture hall partition; Polyhedral cone; Generating function; Gorenstein; Self-reciprocal polynomial; 05A17; 05A19; 52B11; 13A02; 13H10},
 author={Matthias Beck and Benjamin Braun and Matthias K\"oppe and Carla D. Savage and Zafeirakis Zafeirakopoulos},
 pages={1-25},
-language={English}
+language={English},
+bibtex_show = true,
+arxiv = "1211.0258", 
 }
-
 
 
 @article{IPL2011,
@@ -131,36 +140,15 @@ author = "Christos Koukouvinos and Veronika Pillwein and Dimitris E. Simos and Z
 }
 
 
-@inproceedings{koukouvinos2013grobner,
-  title={A {G}r\"obner Bases Method for Complementary Sequences},
-  author={Koukouvinos, Christos and Simos, Dimitris E and Zafeirakopoulos, Zafeirakis},
-  journal={Proceedings of Applications of Computer Algebra ACA 2013. M{\'a}laga},
-  pages={255},
-  year={2013}
-}
 
 
-@inproceedings{issac15,
- author = {{Ioannis} {Z.} Emiris and Christos Konaxis  and Zafeirakis
- {Zafeirakopoulos}},
- title = {Minkowski Decomposition and Geometric Predicates in Sparse
-Implicitization},
- booktitle = {Proceedings of the 40th International Symposium on Symbolic and
-Algebraic Computation},
- series = {ISSAC '15},
- year = {2015},
- location = {Bath, UK},
- }
 
 
-@inproceedings{EuroCG16,
- author = {{Ioannis} {Z.} Emiris and Anna Karasoulou and Eleni Tzanaki  and Zafeirakis {Zafeirakopoulos}},
- title = {On the space of Minkowski summands of a convex polytope},
- series = {EuroCG '16},
- year = {2016},
- location = {Lugano, Switzerland},
-url={http://www.eurocg2016.usi.ch/sites/default/files/paper_76.pdf}
- }
+
+
+
+
+
 
 
 
@@ -184,43 +172,119 @@ url={http://www.eurocg2016.usi.ch/sites/default/files/paper_76.pdf}
    bibsource = {dblp computer science bibliography, https://dblp.org}
  }
 
- @book{macis2019,
-  editor    = {Daniel Slamanig and
-               Elias P. Tsigaridas and
-               Zafeirakis Zafeirakopoulos},
-  title     = {Mathematical Aspects of Computer and Information Sciences - 8th International
-               Conference, {MACIS} 2019, Gebze, Turkey, November 13-15, 2019, Revised
-               Selected Papers},
-  series    = {Lecture Notes in Computer Science},
-  volume    = {11989},
-  publisher = {Springer},
-  year      = {2020},
-  url       = {https://doi.org/10.1007/978-3-030-43120-4},
-  doi       = {10.1007/978-3-030-43120-4},
-  isbn      = {978-3-030-43119-8},
-  timestamp = {Thu, 19 Mar 2020 11:24:46 +0100},
-  biburl    = {https://dblp.org/rec/conf/macis/2019.bib},
-  bibsource = {dblp computer science bibliography, https://dblp.org}
+@inproceedings{Onal2019,
+author="{\"O}nal, Umutcan
+and Zafeirakopoulos, Zafeirakis",
+title="A Machine Learning Framework For Volume Prediction",
+bookTitle="Special Event on Analysis of Experimental Algorithms (SEA2
+ 2019)",
+year="2019",
+publisher="Springer International Publishing",
+}
+
+
+ @inproceedings{Fisikopoulos2017,
+author="Fisikopoulos, Vissarion
+and Zafeirakopoulos, Zafeirakis",
+editor="Bl{\"o}mer, Johannes
+and Kotsireas, Ilias S.
+and Kutsia, Temur
+and Simos, Dimitris E.",
+title="Experimental Study of the Ehrhart Interpolation Polytope",
+bookTitle="Mathematical Aspects of Computer and Information Sciences: 7th International Conference, MACIS 2017, Vienna, Austria, November 15-17, 2017, Proceedings",
+year="2017",
+publisher="Springer International Publishing",
+address="Cham",
+pages="320--324",
+abstract="In this paper we define a family of polytopes called Ehrhart Interpolation Polytopes with respect to a given polytope and a parameter corresponding to the dilation of the polytope. We experimentally study the behavior of the number of lattice points in each member of the family, looking for a member with a single lattice point. That single lattice point is the h* vector of the given polytope. Our study is motivated by efficient algorithms for lattice point enumeration.",
+isbn="978-3-319-72453-9",
+doi="10.1007/978-3-319-72453-9_26",
+url="https://doi.org/10.1007/978-3-319-72453-9_26"
 }
 
 
 
-  @article{KRTZ22JSC,
-    author    = {Christina Katsamaki and
-                 Fabrice Rouillier and
-                 Elias P. Tsigaridas and
-                 Zafeirakis Zafeirakopoulos},
-    title     = {PTOPO: Computing the Geometry and the Topology of Parametric Curves},
-    journal   = {Journal of Symbolic Computation},
-    year = {2023}
+
+@inproceedings{issac15,
+ author = {{Ioannis} {Z.} Emiris and Christos Konaxis  and Zafeirakis
+ {Zafeirakopoulos}},
+ title = {Minkowski Decomposition and Geometric Predicates in Sparse
+Implicitization},
+ booktitle = {Proceedings of the 40th International Symposium on Symbolic and
+Algebraic Computation},
+ series = {ISSAC '15},
+ year = {2015},
+ location = {Bath, UK},
+ abstract = {Based on the computation of a polytope Q, called the predicted polytope, containing the Newton polytope P of the implicit equation, implicitization of a parametric hypersurface is reduced to computing the nullspace of a numeric matrix. Polytope Q may contain P as a Minkowski summand, thus jeopardizing the efficiency of sparse implicitization. Our contribution is twofold. On one hand we tackle the aforementioned issue in the case of 2D curves and 3D surfaces by Minkowski decomposing Q, thus detecting the Minkowski summand relevant to implicitization: we design and implement in Sage a new, public domain, practical, potentially generalizable and worst-case optimal algorithm for Minkowski decomposition in 3D based on integer linear programming. On the other hand, we formulate basic geometric predicates, namely membership and sidedness for given query points, as rank computations on the interpolation matrix, thus avoiding to expand the implicit polynomial. This approach is implemented in Maple}
+ }
+
+
+
+
+@inproceedings{SNC09,
+ author = {Hemmer, Michael and Tsigaridas, Elias P. and Zafeirakopoulos, Zafeirakis and Emiris, Ioannis Z. and Karavelas, Menelaos I. and Mourrain, Bernard},
+ title = {Experimental evaluation and cross-benchmarking of univariate real solvers},
+ booktitle = {Proceedings of the 2009 conference on Symbolic numeric computation},
+ series = {SNC '09},
+ year = {2009},
+ isbn = {978-1-60558-664-9},
+ location = {Kyoto, Japan},
+ pages = {45--54},
+ numpages = {10},
+ url = {http://doi.acm.org/10.1145/1577190.1577202},
+ doi = {10.1145/1577190.1577202},
+ acmid = {1577202},
+ publisher = {ACM},
+ address = {New York, NY, USA},
+ keywords = {benchmarks, real root isolation, univariate polynomial},
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@inproceedings{EuroCG16,
+  author = {{Ioannis} {Z.} Emiris and Anna Karasoulou and Eleni Tzanaki  and Zafeirakis {Zafeirakopoulos}},
+  title = {On the space of Minkowski summands of a convex polytope},
+  series = {EuroCG '16},
+  year = {2016},
+  location = {Lugano, Switzerland},
+  url={http://www.eurocg2016.usi.ch/sites/default/files/paper_76.pdf},
+  pdf = "papers/eurocg2016.pdf",
+  abstract ={We present an algorithm for computing all Minkowski Decompositions (MinkDecomp) of a given convex, integral d-dimensional polytope, using the cone of combinatorially equivalent polytopes. An implementation is given in sage.}
   }
 
+ 
 
-  @article{GRZ13,
+
+
+
+@unpublished{GRZ13,
     author    = { Matteo Gallet and Hamid Rahkooy and Zafeirakis Zafeirakopoulos},
     title     = {On computing the elimination ideal using resultants with applications to Gr\"obner bases},
     journal   = {arXiv preprint arXiv:1307.5330},
     year = {2013}
   }
 
+
+@inproceedings{koukouvinos2013grobner,
+  title={A {G}r\"obner Bases Method for Complementary Sequences},
+  author={Koukouvinos, Christos and Simos, Dimitris E and Zafeirakopoulos, Zafeirakis},
+  journal={Proceedings of Applications of Computer Algebra ACA 2013. M{\'a}laga},
+  pages={255},
+  year={2013}
+}
 
