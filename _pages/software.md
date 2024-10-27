@@ -59,19 +59,22 @@ My first attempt to organize a benchmarking system can be found in benchit (but 
 </div> 
 
 
-# ALCYON
+# alcyon.jl
+
+alcyon.jl is an umbrella project for implementations in the [ALCYON lab](https://alcyon-lab.github.io/webpage/).
+As expected, it is a Julia package implementing ALgorithms for Combinatorics, geometrY, Optimization and Number theory. 
+
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+    {% include repository/repocomment.liquid repository="alcyon-lab/AlcyonRegistry" comment="The registry needed to install the packages." %}
+    {% include repository/repocomment.liquid repository="alcyon-lab/AlcyonPkgTemplate.jl" comment="The template if you want to contribute a package." %}
+</div> 
 
 
-https://github.com/alcyon-lab/AlcyonRegistry
-
-https://github.com/alcyon-lab/AlcyonPkgTemplate.jl
-
-
-alcyon-lab/SymbolicMatrices.jl
+ 
 # LaTeX
 
 LaTeX is excellent for increasing productivity, except if you enjoy writing macros/packages too much. 
-Out of the countless hours I wasted writing macros for the future, here are some that may be useful to others.
+After wasting countless hours writing macros for the future, here are some packages that may be useful to others.
 
 ## Polyhedra.sty
 

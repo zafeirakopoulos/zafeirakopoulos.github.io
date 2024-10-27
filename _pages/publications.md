@@ -310,8 +310,7 @@ in problems coming from combinatorics and number theory".**
 <!-- {% include bib_search.liquid %} -->
 
 # Publications 
+
 <div class="publications">
-
-{% bibliography %}
-
+{% bibliography  %}
 </div>
