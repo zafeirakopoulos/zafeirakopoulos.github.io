@@ -2,12 +2,14 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Research projects (as principal investigator) 
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: 
 horizontal: false
 ---
+
+We are looking for a postdoc in the POGA project!
 
 <!-- pages/projects.md -->
 <div class="projects">

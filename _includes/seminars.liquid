@@ -1,0 +1,30 @@
+<div class="news">
+  {% if site.seminars != blank %}
+    {% assign seminars_size = site.seminars | size %}
+    <div
+      class="table-responsive"
+      {% if include.limit and site.announcements.scrollable and seminars_size > 3 %}
+        style="max-height: 60vw"
+      {% endif %}
+    >
+      <table class="table table-sm table-borderless">
+        {% assign seminars = site.seminars | reverse %}
+       
+        {% for item in seminars %}
+          <tr>
+            <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
+            <td>
+              {% if item.inline %}
+                {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
+              {% else %}
+                <a class="news-title" href="{{ item.url | relative_url }}">{{item.venue}} <br> {{ item.title }}</a>
+              {% endif %}
+            </td>
+          </tr>
+        {% endfor %}
+      </table>
+    </div>
+  {% else %}
+    <p>No news so far...</p>
+  {% endif %}
+</div>

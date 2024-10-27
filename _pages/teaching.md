@@ -4,7 +4,7 @@ permalink: /teaching/
 title: Teaching and Outreach
 description: My teaching spans different aspects of computational and discrete mathematics and theoretical computer science.
 nav: true
-nav_order: 6
+nav_order: 5
 ---
 
 
@@ -59,15 +59,33 @@ engineering department and 2 graduation theses in the Galatasaray University mat
 
 ## Outreach 
 
+### Invited talks and lectures
+ 
+
+{% include talks.liquid %}
+ 
+
+### Seminars
+
+Disseminating both new results and new perspectives on known topics is best done through seminars.
+Here is a selection of seminar talks:
+ 
+{% include seminars.liquid %}
+ 
+
 ### IMU project "Training Mathematicians in Computation"
 
-The project's goal was to organize a series of workshops in different cities in Turkey, training mathematicians in computational methods.
+The project's goal was to organize a series of "Experimental Mathematics Meetings" in different cities in Turkey, training mathematicians in computational methods.
  
-### Nesin Math Village (Nesin Matematik Koyu)
+### Nesin Math Village (Nesin Matematik Köyü)
 
 The Nesin Math Village is a village near Selcuk (Izmir, Turkey), where people of all ages and backgrounds can enjoy mathematics.
 
 Every summer there is a summer school for undergraduate and graduate (mostly math) students with a very large variety of course topics.
-Since 2010 I have been teaching courses related to computational aspects of mathematics whenever possible. 
+Since 2010 I have been teaching courses (1 or 2 weeks of lectures) related to computational aspects of mathematics whenever possible: 
 
+Polynomial System Solving (2010), Solving Linear Diophantine Systems (2011), Geometry and Number Theory (2012), Geometry that counts (2015), 
+Algorithmic Algebraic Geometry (2015), Symbolic Computation (2016), Combinatorial Counting (2017), Introduction to Polyhedral Geometry (2018),
+Polyhedral Combinatorics (2019), Symbolic Computation (2022).
 
+ 

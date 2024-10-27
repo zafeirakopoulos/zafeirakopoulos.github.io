@@ -20,7 +20,7 @@ social: true # includes social icons at the bottom of the page
 ---
 
 I completed my PhD in RISC - Research Institute for Symbolic Computation  under the supervision of 
-[Prof. Peter Paule](https://risc.jku.at/m/peter-paule/)(JKU, Austria) and 
+[Prof. Peter Paule](https://risc.jku.at/m/peter-paule/) (JKU, Austria) and 
 [Prof. Matthias Beck](https://matthbeck.github.io) (SFSU, USA).
 
 After that, I worked in RISC, in the Informatics and Telecommunications department of National University of Athens (Athens, Greece) 
@@ -36,3 +36,5 @@ and associate editor of [ACM Communications in Computer Algebra (ACM CCA)](https
 
 In July 2025, the international conference ["Applications of Computer Algebra - ACA"](https://zafeirakopoulos.github.io/ACA2025/) 
 will take place in Heraklion (Crete, Greece). We welcome special session proposals! 
+
+You can find [my CV here]({{ '/assets/pdf/zaf_cv.pdf' | relative_url }}).
