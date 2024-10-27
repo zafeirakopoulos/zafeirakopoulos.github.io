@@ -11,7 +11,7 @@ nav_order: 4
 
 # Polyhedral Omega
 
-The Polyhedral Omega algorithm presented in ["Polyhedral Omega: a New Algorithm for Solving Linear Diophantine Systems"](https://link.springer.com/article/10.1007/s00026-017-0349-x) (joint work with Felix Breuer) is implemented originally in Python/Sage and currently developed in JuliaLang.
+The Polyhedral Omega algorithm presented in ["Polyhedral Omega: a New Algorithm for Solving Linear Diophantine Systems"](https://link.springer.com/article/10.1007/s00026-017-0349-x) (joint work with Felix Breuer) is implemented originally in Python/Sage and currently developed in JuliaLang with other members of the alcyon lab.
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
     {% include repository/repocomment.liquid repository="alcyon-lab/PolyhedralOmega.jl" comment="Actively developed as part of alcyon.jl" %}
@@ -22,7 +22,7 @@ The Polyhedral Omega algorithm presented in ["Polyhedral Omega: a New Algorithm 
 # Polyhedral Omega for Optimization
 
 The first implementation of Polyhedral Omega applied to ILP (Integer Linear Programming).
-Still under heavy development as an alcyon package.
+Still under heavy development as an alcyon.jl package.
 Presented in ISSAC 2024 (software presentation).  
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">

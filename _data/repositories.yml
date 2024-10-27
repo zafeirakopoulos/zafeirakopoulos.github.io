@@ -3,12 +3,4 @@ github_users:
 
 repo_description_lines_max: 1
 
-github_repos:
-  - zafeirakopoulos/
-  - alcyon-lab/PolyhedralOmega.jl
-  - alcyon-lab/AlcyonRegistry
-  - zafeirakopoulos/math-data
-  - fbreuer/polyhedral-omega-sage
-
-other_repos:
-  - https://gitlab.inria.fr/ckatsama/ptopo/
+ 
