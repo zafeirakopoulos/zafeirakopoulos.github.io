@@ -38,8 +38,7 @@ During the process, one gains insight on the resulting algorithm by
 connecting to something known, but often also improves the algorithmic tool
 itself.
 
-The two main themes of my research are \term{algorithmic enumeration}
-and \term{change of representation}.
+The two main themes of my research are **algorithmic enumeration** and **change of representation**.
 In order to achieve my research goals, the computation of bases and
 decompositions becomes necessary.
 First I will give a bird's-eye view of my research and in later
@@ -57,8 +56,7 @@ A number of problems can be viewed as enumeration problems, e.g., counting or li
 * multiplicities of points in a variety
 * magic squares and other combinatorial structures
 * orthogonal designs
-\end{itemize}
-
+ 
 Since the algorithmic solution of enumeration problems is essential,
 their algorithmic complexity is important.
 Some of these problems are easy in terms of complexity, while others are hard.
@@ -68,7 +66,7 @@ systems is NP-hard.
 
 One of the first problems one encounters when trying to solve enumeration
 problems is how to enumerate an infinite set of objects.
-\term{Generating functions} is a standard tool addressing this problem.
+**Generating functions** is a standard tool addressing this problem.
 For simplicity, and because this is the most used case in my research, let's
 assume $$S$$ is a subset of $$\mathbb{N}^d$$ for some $$d\in\mathbb{N}^{*}$$.
 Then we define $$\Phi_{z}^{S}$$, the generating function of $$S$$, to be the formal
@@ -81,7 +79,7 @@ expansion, then we denote it by $$\rho_{z}^{S}$$ and call it a rational
 generating function of $$S$$.
 
 Obviously, in the case of infinite sets the notion of counting is not valid
-anymore, although in some cases it is possible that \term{refined counting} is
+anymore, although in some cases it is possible that **refined counting** is
 both feasible and useful.
 For example, if we consider integer partitions, we can formulate the problem of
 listing all integer partitions, i.e., the set of all finite and non-decreasing
@@ -126,7 +124,7 @@ polynomials (see Section~\ref{sec:EI}),  computing the directional multiplicity
 of isolated points in affine varieties (see Section\ref{sec:DM}) 
 % , the computation of orthogonal designs and complementary sequences (see Section~\ref{sec:OD}) 
 and the counting of real roots of algebraic systems
-$$\cite{studbook}$$.
+{% cite studbook %}.
 
 
 ### Change of Representation
@@ -148,11 +146,11 @@ Different properties of the object are better understood under different
 representations.
 Moreover, one can exploit the different representations algorithmically to
 achieve better results.
-The former can be seen in $$\cite{BeckZaf}$$, where the self-reciprocity
+The former can be seen in {% cite Beck2016 %}, where the self-reciprocity
 of the generating function for Lecture Hall partitions is studied in the
 context of Gorenstein cones.
 The latter is evident in the development of the Polyhedral Omega algorithm in
-[PO17](#Breuer2017).
+{% cite Breuer2017 %}.
 Often it is important to have two representations of an object, since for some question
 the first representation is more convenient while for other questions it is the second.
 For example, if we want to check if a point belongs to a curve, then the implicit form (see Section~\ref{sec:IM})
@@ -180,10 +178,10 @@ basis for the model we created.
 In the realm of algebraic systems, the most usual tools I employ are Gr\"obner
 and dual bases.
 Their study is of independent interest (see Section \ref{sec:EI} and
-\cite{AngelosZaf, rahkooy2011}), but also an integral part of the study of other
+{% cite Mantzaflaris2016 ISSAC2011a %}), but also an integral part of the study of other
 problems 
   % see Section \ref{sec:OD} and 
-\cite{simos2014,ACAMalaga}.
+{% cite ISSAC2011b koukouvinos2013grobner %}.
 
 A tool that provides a lot of information when dealing with polyhedral objects
 is a basis for the underlying semigroup structure, i.e., the Hilbert basis of
