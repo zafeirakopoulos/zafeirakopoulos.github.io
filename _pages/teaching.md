@@ -34,9 +34,7 @@ nav_order: 5
 * 2016 - 2022 Symbolic Computation (elective  in Computer Engineering department, Gebze Technical University)
 * 2019 - 2022 Special Topics in Algorithms (elective  in Computer Engineering department, Gebze Technical University)
 
-## Theses supervision
-
-### Master's Theses
+## Master's Theses supervision
 
 * Nurdan Ünlü (2019, co-advisor), Mathematics Department of Mimar Sinan Fine Arts University.
 
@@ -51,10 +49,6 @@ nav_order: 5
     
     ”Implementation and comparison of methods for real root isolation of univariate polynomials”
 
-### Undergraduate Theses
-
-I have supervised more than 40 graduation (senior year) theses in Gebze Technical University computer
-engineering department and 2 graduation theses in the Galatasaray University math department.
 
 
 ## Outreach 
@@ -79,7 +73,7 @@ The project's goal was to organize a series of "Experimental Mathematics Meeting
  
 ### Nesin Math Village (Nesin Matematik Köyü)
 
-The Nesin Math Village is a village near Selcuk (Izmir, Turkey), where people of all ages and backgrounds can enjoy mathematics.
+The [Nesin Math Village](https://nesinkoyleri.org/en/main-page/nesin-maths-village/) is a village near Selcuk (Izmir, Turkey), where people of all ages and backgrounds can enjoy mathematics.
 
 Every summer there is a summer school for undergraduate and graduate (mostly math) students with a very large variety of course topics.
 Since 2010 I have been teaching courses (1 or 2 weeks of lectures) related to computational aspects of mathematics whenever possible: 

@@ -25,31 +25,4 @@ resultants and Gröbner bases. Last year, members of the French team presented a
 is clear that more polyhedral geometry is needed in order to proceed and this is what this project is about. Bringing
 together two complementary teams in order to work on a state-of-the-art topic. But instead of trying to improve the
 existing result only, what we suggest is a generalization of the framework as well.
-
-
-Publications in the context of GRAPE:
-
-Ioannis Emiris, Angelos Mantzaflaris, Elias Tsigaridas. Multilinear Polynomial Systems: Root Isolation
-and Bit Complexity. Journal of Symbolic Computation, Elsevier, In press, Special Issue on Milestones
-in Computer Algebra (MICA 2016). <hal-02099556>, 2019
-
-Evangelos Bartzos, Ioannis Emiris, Jan Legersky, Elias Tsigaridas. On the maximal number of real
-embeddings of minimally rigid graphs in R^2, R^3 and S^2. Journal of Symbolic Computation, Elsevier,
-In press, 2019 <10.1016/j.jsc.2019.10.015>. <hal-02271782>
-
-Ioannis Emiris, Bernard Mourrain, Elias Tsigaridas. Separation bounds for polynomial systems.
-Journal of Symbolic Computation, Elsevier, 2019, <10.1016/j.jsc.2019.07.001>. <hal-01105276v5>
-
-Matias Bender, Jean-Charles Faugere, Elias Tsigaridas. Grobner Basis over Semigroup Algebras: Algo-  ̈
-rithms and Applications for Sparse Polynomial Systems. ISSAC 2019 - 44th International Symposium
-on Symbolic and Algebraic Computation, Jul 2019, Beijing, China. pp.42-49, <10.1145/3326229.3326248>.
-<hal-02002689v2>
-
-Christina Katsamaki, Fabrice Rouillier, Elias P. Tsigaridas, Zafeirakis Zafeirakopoulos.
-On the geometry and the topology of parametric curves.
-ISSAC 2020 - International Symposium on Symbolic and Algebraic Computation, Kalamata, Greece, July 20-23, 2020,
-10.1145/3373207.3404062
-
-Christina Katsamaki, Fabrice Rouillier, Elias P. Tsigaridas, Zafeirakis Zafeirakopoulos.
-PTOPO: a maple package for the topology of parametric curves.
-ACM Commun. Comput. Algebra, 2020, 10.1145/3427218.3427223
+ 

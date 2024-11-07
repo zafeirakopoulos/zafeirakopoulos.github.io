@@ -41,8 +41,6 @@ itself.
 The two main themes of my research are **algorithmic enumeration** and **change of representation**.
 In order to achieve my research goals, the computation of bases and
 decompositions becomes necessary.
-First I will give a bird's-eye view of my research and in later
-sections I will elaborate on specific topics.
 
 ### Algorithmic Enumeration
 
@@ -53,7 +51,6 @@ A number of problems can be viewed as enumeration problems, e.g., counting or li
 * integer partitions
 * lattice points in polyhedra
 * (complex, real, etc.) roots of algebraic systems
-* multiplicities of points in a variety
 * magic squares and other combinatorial structures
 * orthogonal designs
  
@@ -113,16 +110,14 @@ All of the problems above are of interest as enumeration problems in integer
 partition theory.
 
 The problems in algorithmic enumeration that I have studied and are still part
-of my research plan include the solution of linear Diophantine systems and
+of my research plan include the solution of **linear Diophantine systems** and
 the computation of rational generating functions for integer partitions
-under linear constraints (see Section~\ref{sec:SPG}),  the
+under linear constraints,  the
 computation of rational generating functions for the lattice points in
-polyhedra of infinite dimension (see Section~\ref{sec:SPG}), the algorithmic
+**polyhedra of infinite dimension**, the algorithmic
 treatment of identities concerning integer partitions and their generating
-functions (see Section\ref{sec:GIP}), the efficient computation of Ehrhart
-polynomials (see Section~\ref{sec:EI}),  computing the directional multiplicity
-of isolated points in affine varieties (see Section\ref{sec:DM}) 
-% , the computation of orthogonal designs and complementary sequences (see Section~\ref{sec:OD}) 
+functions, the efficient computation of **Ehrhart polynomials**,  computing the directional multiplicity
+of isolated points in affine varieties, 
 and the counting of real roots of algebraic systems
 {% cite studbook %}.
 
@@ -137,8 +132,7 @@ A typical example is the representation of solutions to linear Diophantine
 systems, which can be taken as a semigroup from a classical algebraic
 viewpoint, or the set of constrained integer partitions in the context of
 number theory, or the set of lattice points in a polyhedron when represented as
-a
-polyhedral-geometric object.
+a polyhedral-geometric object.
 
 This identification of the different representations is not always easy, but it
 is almost always helpful.
@@ -153,20 +147,15 @@ The latter is evident in the development of the Polyhedral Omega algorithm in
 {% cite Breuer2017 %}.
 Often it is important to have two representations of an object, since for some question
 the first representation is more convenient while for other questions it is the second.
-For example, if we want to check if a point belongs to a curve, then the implicit form (see Section~\ref{sec:IM})
-is better.
-If we want to plot the curve though, the parametric form (see Section~\ref{sec:ptopo}) is better.
+For example, if we want to check if a point belongs to a curve, then the implicit form is better {% cite issac15 %}.
+If we want to plot the curve though, the parametric form {% cite ptopo2023 %} is better.
 
 
 The change of representation theme, appears in my research clearly 
-% in the transformation of the problem of finding complementary sequences and orthogonal
-% designs to a problem of ideals in a certain polynomial ring (see
-% Section\ref{sec:OD}), 
 in the treatment of integer partitions as lattice points
-in polyhedra (see Section~\ref{sec:SPG} and Section~\ref{sec:GIP}) and in the
+in polyhedra and in the
 consideration of the Ehrhart polynomial computation as an interpolation
-problem, which in turn becomes again a problem in polyhedral geometry (see
-Section\ref{sec:EI}).
+problem, which in turn becomes again a problem in polyhedral geometry {% cite Fisikopoulos2017 %}.
 
 ### Bases and Decomposition
 
@@ -177,34 +166,43 @@ basis for the model we created.
 
 In the realm of algebraic systems, the most usual tools I employ are Gr\"obner
 and dual bases.
-Their study is of independent interest (see Section \ref{sec:EI} and
-{% cite Mantzaflaris2016 ISSAC2011a %}), but also an integral part of the study of other
-problems 
-  % see Section \ref{sec:OD} and 
-{% cite ISSAC2011b koukouvinos2013grobner %}.
+Their study is of independent interest
+{% cite Mantzaflaris2016 ISSAC2011a %}, but also an integral part of the study of other
+problems {% cite ISSAC2011b koukouvinos2013grobner %}.
 
 A tool that provides a lot of information when dealing with polyhedral objects
 is a basis for the underlying semigroup structure, i.e., the Hilbert basis of
 the saturation of the semigroup defined by the generators of a cone.
-% The reduction of the study of a polyhedron to the study of cones is done by
-% decomposition.
 During my research, I mostly used Brion and Lawrence-Varchenko decompositions
-of polyhedra into cones (see Section \ref{sec:SPG}).
-On the other hand, in the context of implicitization  (see Section
-\ref{sec:IM} and \cite{EmirisZaf}), we used Minkowski decomposition in order to
+of polyhedra into simplicial cones.
+On the other hand, in the context of implicitization {% cite issac15 %}, we used Minkowski decomposition in order to
 compute the Newton polytope of the implicit equation.
 
+### Optimization
 
+Finally, after having the algorithmic tools and useful descriptions of our objects,
+the next natural question is to optimize a linear functional over those objects.
+In general, various forms of discrete optimization arise within my research.
+In particular, I am interested in Integer Linear Programming, since it is the 
+optimization version of solving linear Diophantine systems.
+In addition, a lot of problems can be approached as Integer Linear Programs (e.g., we currently study 
+polynomial multiplication in this setting).
+Clearly the methods coming from this research lead to general solutions and thus not expected to 
+perform better than the excellent existing heuristics. 
+The goal is to study the geometry of problem families and detect families where our tools may perform well. 
  
 
 <script type="text/tikz"> 
 
-\def\symboliccomputation{(0,0) circle (2.5cm)}
-\def\numbertheory{(4,0) circle (3cm)}
-\def\combinatorics{(-4.5,1) circle (3cm)}
-\def\alggeom{(0,3.5) circle (3cm)}
-\def\polygeom{(1.8,-4) ellipse (1.5cm and 7cm)}
-\def\genfun{(-1.6,-3.5) circle (3cm)}
+\def\symboliccomputation{(0,0) circle (4.5cm)}
+
+\def\alggeom{(0,5.5)  ellipse (5cm and 2.5cm)}
+\def\numbertheory{(5,0)  ellipse  (2.5cm and 5cm)}
+\def\combinatorics{(-5,0) ellipse  (2.5cm and 5cm)}
+\def\genfun{(0,-4.5) ellipse  (5cm and 2.5cm)}
+
+\def\polygeom{(3,0) ellipse (2.5cm and 5cm)}
+\def\optim{(2,0) ellipse (3cm and 4cm)}
  
  \newcommand{\createLabel}[5]{
     \coordinate (#1) at #2;
@@ -218,78 +216,22 @@ at (#1) {#4};
         \draw \symboliccomputation;
         \draw \numbertheory;
         \draw \combinatorics;
-        \draw \alggeom;
+        \draw \alggeom;, 
         \draw \polygeom;
         \draw \genfun;
-        \draw \symboliccomputation node [below] { \hspace{-3em}Algorithms};
-        \draw \numbertheory node[above] { \hspace{5em} Number Theory};
-        \draw \combinatorics node [above] {Combinatorics};
+        \draw \symboliccomputation node [below,rotate=270] {Algorithms};
+        \draw \optim node [below,rotate=270] {Optimization};
+        \draw \numbertheory node[above,rotate=270] {Number Theory};
+        \draw \combinatorics node [above,rotate=270] {Combinatorics};
         \draw \alggeom node [above] {Algebraic Geometry};
-        \draw \polygeom node [below, text width=2cm] {\vskip 4em {Polyhedral Geometry}};
-        \draw \genfun node [below] { \hspace{-4em} Generating Functions};
+        \draw \polygeom node [below,rotate=270] {Polyhedral Geometry};
+        \draw \genfun node [below] {Generating Functions};
    \end{scope}
 
-
     \begin{scope}[fill opacity=0.5]
-      \clip \combinatorics;
-      \clip \alggeom;
-      \fill[red] \symboliccomputation;
+      \fill[blue,opacity=0.2] \optim;
     \end{scope}
-    \createLabel{a}{(-5.5,-7.5)}{(-1.8,1.5)}{
-      \begin{itemize}
-       \item Orthogonal Designs
-       \item Topology of parametric curves
-      \end{itemize}
-    }{north}
-
-    \begin{scope}[fill opacity=0.5]
-      \clip \numbertheory;
-      \clip \polygeom;
-      \fill[red] \symboliccomputation;
-    \end{scope}
-    \createLabel{a}{(5.8,-5)}{(2,0)}{
-      \begin{itemize}
-       \item Symbolic \\ Polyhedral $$\Omega$$
-       \item Algorithmic Partition \\ Theory
-      \end{itemize}
-    }{north}
-
-
-     \begin{scope}[fill opacity=0.5]
-      \clip \genfun;
-      \clip \polygeom;
-      \fill[red] \symboliccomputation;
-    \end{scope}
-    \createLabel{a}{(-2,-10)}{(0.7,-2)}{
-      \begin{itemize}
-       \item Symbolic \\ Polyhedral \\ Geometry
-      \end{itemize}
-    }{north}
-
-
-     \begin{scope}[fill opacity=0.5]
-      \clip \alggeom;
-      \fill[red] \symboliccomputation;
-    \end{scope}
-    \createLabel{a}{(-6,6)}{(0,1.3)}{
-      \begin{itemize}
-       \item Directional Multiplicity
-       \item Elimination Theory
-      \end{itemize}
-    }{east}
-
-
-     \begin{scope}[fill opacity=0.5]
-      \clip \alggeom;
-      \clip \polygeom;
-      \fill[red] \symboliccomputation;
-    \end{scope}
-    \createLabel{a}{(5.5,5.5)}{(1.3,1.7)}{
-      \begin{itemize}
-       \item Ehrhart \\ Interpolation
-       \item Implicitization
-      \end{itemize}
-    }{west}
+ 
 
     \end{tikzpicture}
 </script>
@@ -312,3 +254,4 @@ in problems coming from combinatorics and number theory".**
 <div class="publications">
 {% bibliography  %}
 </div>
+
