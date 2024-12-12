@@ -16,8 +16,11 @@ The Polyhedral Omega algorithm presented in ["Polyhedral Omega: a New Algorithm 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
     {% include repository/repocomment.liquid repository="alcyon-lab/PolyhedralOmega.jl" comment="Actively developed as part of alcyon.jl" %}
     {% include repository/repocomment.liquid repository="alcyon-lab/PolyhedralOmegaMono" comment="Actively developed as standalone package" %}
-    {% include repository/repocomment.liquid repository="fbreuer/polyhedral-omega-sage" comment="Outdated Python/Sage implementation" %}
+    {% include repository/repocomment.liquid repository="zafeirakopoulos/polyhedral-omega-sage" comment="Python/Sage implementation" %}
 </div> 
+
+If you want to test the Sage implementation you can check [this public worksheet in cocalc.com](
+https://cocalc.com/projects/cbee466f-2541-471c-adaf-3e26dee5ccdd/files/Optimization.sagews).
 
 # Polyhedral Omega for Optimization
 
