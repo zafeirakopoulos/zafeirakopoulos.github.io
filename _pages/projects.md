@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 description: Research projects (as principal investigator) 
 nav: true
-nav_order: 2
+nav_order: 4
 display_categories: 
 horizontal: false
 ---

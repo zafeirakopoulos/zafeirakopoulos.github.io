@@ -4,7 +4,7 @@ permalink: /teaching/
 title: Teaching and Outreach
 description: My teaching spans different aspects of computational and discrete mathematics and theoretical computer science.
 nav: true
-nav_order: 5
+nav_order: 2
 ---
 
 

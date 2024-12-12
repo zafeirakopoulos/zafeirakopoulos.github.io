@@ -4,7 +4,7 @@ permalink: /software/
 title: Software
 description: In this page you can find software/code I have developed or contributed to (from a leading position). All projects are open source under either GNU GPL or MIT licenses (as indicated in each project). 
 nav: true
-nav_order: 4
+nav_order: 3
 ---
  
 
