@@ -200,10 +200,10 @@ collections:
     output: true
     permalink: /:collection/:title/
   seminars:
-    output: true
+    output: false
     permalink: /:collection/:title/
   talks:
-    output: true
+    output: false
     permalink: /:collection/:title/
 
 

@@ -33,7 +33,7 @@ Presented in ISSAC 2024 (software presentation).
 </div> 
 
 
-# PTOPO
+# PTOPO -  geometry and topology of curves
 
 The Maple package for the implementation of the algorithm presented in [PTOPO: Computing the geometry and the topology of parametric curve](https://doi.org/10.1016/j.jsc.2022.08.012) (joint work with Christina Katsamaki, Fabrice Rouillier and Elias Tsigaridas).
 See [the page of the project](http://webusers.imj-prg.fr/~christina.katsamaki/ptopo/) for more information and nice pictures.
@@ -42,6 +42,17 @@ See [the page of the project](http://webusers.imj-prg.fr/~christina.katsamaki/pt
     {% include repository/repocomment.liquid repository="zafeirakopoulos/PTOPO" comment="" %}
 </div> 
 
+# Milne - Real root isolation in two dimensions
+
+This Maple package was part of my master's thesis. 
+Following Milne's volume function method (a multivariate equivalent of Sturm sequences), we count the number 
+or real roots in a box. If there is more than one, we subdivide and continue recursively, until all real roots are isolated.
+
+It uses the SLV library by Elias Tsigaridas.
+
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+    {% include repository/repocomment.liquid repository="zafeirakopoulos/milne" comment="" %}
+</div> 
 
 
 # math-data
