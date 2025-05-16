@@ -45,8 +45,8 @@ See [the page of the project](http://webusers.imj-prg.fr/~christina.katsamaki/pt
 # Milne - Real root isolation in two dimensions
 
 This Maple package was part of my master's thesis. 
-Following Milne's volume function method (a multivariate equivalent of Sturm sequences), we count the number 
-or real roots in a box. If there is more than one, we subdivide and continue recursively, until all real roots are isolated.
+Following Milne's volume function method (a multivariate version of Sturm sequences), we count the number 
+of real roots in a box. If there is more than one, we subdivide and continue recursively, until all real roots are isolated.
 
 It uses the SLV library by Elias Tsigaridas.
 

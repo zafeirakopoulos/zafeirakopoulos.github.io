@@ -33,8 +33,10 @@ Eccellenza project of [Prof. Jehanne Dousse](https://www.unige.ch/~doussej/).
 
 I serve as the Information Director of the [SIG Symbolic and Algebraic Manipulation (ACM SIGSAM)](http://sigsam.org) 
 and associate editor of [ACM Communications in Computer Algebra (ACM CCA)](https://www.sigsam.org/cca/).
+I am also a member of ACM SIGACT and SIAM Activity Groups on Optimization, Algebraic Geometry, and Applied and Computational Discrete Algorithm.
 
-In July 2025, the international conference ["Applications of Computer Algebra - ACA"](https://zafeirakopoulos.github.io/ACA2025/) 
+
+In July 2025, the international conference ["Applications of Computer Algebra - ACA"](https://aca2025.github.io) 
 will take place in Heraklion (Crete, Greece). We welcome special session proposals! 
 
 You can find [my CV here]({{ '/assets/pdf/zaf_cv.pdf' | relative_url }}).
