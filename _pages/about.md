@@ -9,10 +9,10 @@ profile:
   image: zaf.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>Office 404</p>
-    <p>Section of Mathematics</p>
-    <p>University of Geneva</p>
-    <p>Geneva, Switzerland</p>
+    <p>Office 211</p>
+    <p>Department of Mathematics</p>
+    <p>University of Athens</p>
+    <p>Athens, Greece</p>
 
 news: true # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -28,8 +28,9 @@ and the Mathematics department of Galatasaray University (Istanbul, Turkey) as p
 
 From 2016 ato 2022, I was an assistant professor in the Computer Engineering department of Gebze Technical University (Gebze, Turkey).
 
-As of January 2023, I am a maître assistant in the Mathematics department of University of Geneva (Geneva, Switzerland) in the
-Eccellenza project of [Prof. Jehanne Dousse](https://www.unige.ch/~doussej/).
+After that, I was a maître assistant in the Mathematics department of University of Geneva (Geneva, Switzerland) in the
+Eccellenza project of [Prof. Jehanne Dousse](https://www.unige.ch/~doussej/) for 2 years and currently I am a researcher in the ELIDEK project of 
+Prof. Maria Chlouveraki in the National and Kapodistrian University of Athens (Athens, Greece).
 
 I serve as the Information Director of the [SIG Symbolic and Algebraic Manipulation (ACM SIGSAM)](http://sigsam.org) 
 and associate editor of [ACM Communications in Computer Algebra (ACM CCA)](https://www.sigsam.org/cca/).
