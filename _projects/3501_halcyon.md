@@ -2,7 +2,7 @@
 layout: page
 title: HALCYON
 description: Heterogeneous Algorithms for Combinatorics, Geometry, Optimization and Number Theory 
-img: assets/img/md.png
+img: assets/img/halcyon.png
 importance: 2
 category: work
 start: 2017 Oct  

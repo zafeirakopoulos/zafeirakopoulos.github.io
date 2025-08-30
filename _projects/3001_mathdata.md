@@ -2,7 +2,7 @@
 layout: page
 title: math-data
 description: A system for efficient representation of mathematical data and benchmarking of mathematical software and algorithms
-img: assets/img/md.png
+img: assets/img/mathdata.png
 importance: 2
 category: work
 related_publications: true
