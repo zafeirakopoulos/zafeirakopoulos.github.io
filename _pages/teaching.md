@@ -8,14 +8,10 @@ nav_order: 2
 ---
 
 
-## Current (2024)
+## Current academic year
 
-### Summer Semester 
-* Exercise course on "Topics in Algebraic Combinatorics" (Section of Mathematics, University of Geneva)
-* Lab section of "Numerical Analysis" (Section of Mathematics, University of Geneva)
-
-### Winter semester 
-* Graduate Seminar mini-course on "Using Computer Algebra" (Section of Mathematics, University of Geneva)
+* Informatics I
+ 
 
 
 ## Past
@@ -29,7 +25,8 @@ nav_order: 2
 * 2016 Signals and Systems (obligatory in Computer Engineering department, Gebze Technical University)
 
 ### Graduate (master's and PhD) courses
-
+ 
+* 2024 Graduate Seminar mini-course on "Using Computer Algebra" (Section of Mathematics, University of Geneva)
 * 2017 - 2020 Algorithm Design and Analysis (obligatory in Computer Engineering department, Gebze Technical University)
 * 2016 - 2022 Symbolic Computation (elective  in Computer Engineering department, Gebze Technical University)
 * 2019 - 2022 Special Topics in Algorithms (elective  in Computer Engineering department, Gebze Technical University)
