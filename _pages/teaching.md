@@ -2,36 +2,18 @@
 layout: page
 permalink: /teaching/
 title: Teaching 
-description: My teaching spans different aspects of computational and discrete mathematics and theoretical computer science.
+description: 
 nav: true
 nav_order: 2
 ---
 
+Students of UoA: [you can find information about my courses and topics for projects in this page (in Greek)](../fitites).  
 
-## Current academic year
-
-* Informatics I
- 
+My teaching spans different aspects of computational and discrete mathematics and theoretical computer science.
+Please check my CV for a list of courses I taught in the past.
 
 
-## Past
-
-### Undergraduate courses
-
-* 2016 - 2022  Discrete Mathematics (obligatory in Computer Engineering department, Gebze Technical University)
-* 2019 - 2022 Probability and Statistics (obligatory  in Computer Engineering department, Gebze Technical University)
-* 2017 - 2022 Theory of Computation (elective  in Computer Engineering department, Gebze Technical University)
-* 2016 - 2022 Introduction to Symbolic Computation (elective  in Computer Engineering department, Gebze Technical University)
-* 2016 Signals and Systems (obligatory in Computer Engineering department, Gebze Technical University)
-
-### Graduate (master's and PhD) courses
- 
-* 2024 Graduate Seminar mini-course on "Using Computer Algebra" (Section of Mathematics, University of Geneva)
-* 2017 - 2020 Algorithm Design and Analysis (obligatory in Computer Engineering department, Gebze Technical University)
-* 2016 - 2022 Symbolic Computation (elective  in Computer Engineering department, Gebze Technical University)
-* 2019 - 2022 Special Topics in Algorithms (elective  in Computer Engineering department, Gebze Technical University)
-
-## Master's Theses supervision
+## Master's Theses
 
 * Nurdan Ünlü (2019, co-advisor), Mathematics Department of Mimar Sinan Fine Arts University.
 
