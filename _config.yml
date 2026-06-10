@@ -199,6 +199,9 @@ collections:
   projects:
     output: true
     permalink: /:collection/:title/
+  topics:
+    output: true
+    permalink: /:collection/:title/
   seminars:
     output: false
     permalink: /:collection/:title/
