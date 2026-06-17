@@ -1,0 +1,26 @@
+{% assign t = include.topic %}
+<div class="topic-tags mt-2 mb-1">
+  {% if t.difficulty %}
+    {% if t.difficulty == 'introductory' %}
+      {% assign diff_class = 'bg-primary' %}
+    {% elsif t.difficulty == 'easy' %}
+      {% assign diff_class = 'bg-success' %}
+    {% elsif t.difficulty == 'normal' %}
+      {% assign diff_class = 'bg-warning text-dark' %}
+    {% elsif t.difficulty == 'difficult' %}
+      {% assign diff_class = 'bg-danger' %}
+    {% else %}
+      {% assign diff_class = 'bg-secondary' %}
+    {% endif %}
+    <span class="badge {{ diff_class }}">{{ t.difficulty }}</span>
+  {% endif %}
+  {% for lvl in t.level %}
+    <span class="badge bg-secondary">{{ lvl }}</span>
+  {% endfor %}
+  {% for tag in t.content %}
+    <span class="badge bg-light text-dark border">{{ tag }}</span>
+  {% endfor %}
+  {% if t.urgency %}
+    <span class="badge bg-dark" title="Urgency">{{ t.urgency }}</span>
+  {% endif %}
+</div>

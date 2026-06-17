@@ -11,6 +11,7 @@
           <div class="card-body">
             <h3 class="card-title">{{ topic.title }}</h3>
             <p class="card-text">{{ topic.description }}</p>
+            {% include topic_tags.liquid topic=topic %}
             <div class="row ml-1 mr-1 p-0">
               {% if topic.github %}
                 <div class="github-icon">

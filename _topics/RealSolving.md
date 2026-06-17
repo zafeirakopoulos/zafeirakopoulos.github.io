@@ -1,10 +1,13 @@
 ---
-layout: page
+layout: topic
 title: Real Solving
 description:
 img:
 importance: 3
 category: topics
 related_publications: true
-level: undergrad, master
+difficulty: normal
+level: [undergrad, master]
+content: [algebra]
+urgency: 5
 ---
