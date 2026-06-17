@@ -13,7 +13,7 @@ sage: true
 algorithms, combining geometry and algebra, for the treatment of enumeration and optimization problems coming from combinatorics and number theory".**
 <br><br>
 
-In what follows I present briefly my research interests, with the help of [SageMath](https://sagemath.org) (see how in [HowTo](../howto)).
+In what follows I present briefly my research interests, with the help of [SageMath](https://sagemath.org).
 
 Here is a [list of my publications](#publications).
 
@@ -70,7 +70,7 @@ For example, real root counting for univariate polynomials is polynomial-time
 solvable, while the enumeration of non-negative integer solutions to linear
 systems is NP-hard.
 
-For more on [algorithmic enumeration and my view on it check here](enumeration).
+For more on algorithmic enumeration and my view on it check here.
 
 One of the first problems one encounters when trying to solve enumeration
 problems is how to enumerate an infinite set of objects.

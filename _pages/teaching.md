@@ -7,7 +7,7 @@ nav: true
 nav_order: 2
 ---
 
-Students of UoA: [you can find information about my courses and topics for projects in this page (in Greek)](../fitites).
+Students of UoA: [you can find information about my courses and topics for projects in this page (in Greek)](/fitites/).
 
 My teaching spans different aspects of computational and discrete mathematics and theoretical computer science.
 Please check my CV for a list of courses I taught in the past.
