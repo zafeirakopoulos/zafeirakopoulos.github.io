@@ -30,7 +30,6 @@
       <div class="card-body">
         {% include topic_tags.liquid topic=topic hide_difficulty=true %}
         <h2 class="card-title">{{ topic.title }}</h2>
-        <p class="card-text">{{ topic.description }}</p>
         <div class="row ml-1 mr-1 p-0">
           {% if topic.github %}
             <div class="github-icon">
