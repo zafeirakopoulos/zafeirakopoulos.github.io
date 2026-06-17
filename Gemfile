@@ -22,6 +22,10 @@ group :jekyll_plugins do
     gem 'unicode_utils'
     gem 'webrick'
 end
+group :dependencies do
+    gem 'logger'
+    gem 'observer'
+end
 group :other_plugins do
     gem 'css_parser'
     gem 'feedjira'
