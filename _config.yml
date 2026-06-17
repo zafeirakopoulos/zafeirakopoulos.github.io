@@ -3,7 +3,7 @@
 # -----------------------------------------------------------------------------
 
 title: Zafeirakis Zafeirakopoulos # the website title (if blank, full name will be used instead)
-first_name: Zafeirakis 
+first_name: Zafeirakis
 middle_name:
 last_name: Zafeirakopoulos
 email: zafeirakopoulos@gmail.com
@@ -17,7 +17,7 @@ lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: #⚛️ # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://zafeirakopoulos.github.io # the base hostname & protocol for your site
-baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
+baseurl: # the subpath of your site, e.g. /blog/. Leave blank for root
 last_updated: true # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
@@ -209,7 +209,6 @@ collections:
     output: false
     permalink: /:collection/:title/
 
-
 announcements:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
@@ -240,7 +239,7 @@ kramdown:
 # Includes & excludes
 include: ["_pages"]
 exclude:
-# TODO remove from exclude if I want some of the _pages
+  # TODO remove from exclude if I want some of the _pages
   - _pages/cv.md
   - _pages/blog.md
   - _pages/profiles.md
@@ -349,9 +348,9 @@ scholar:
   details_dir: bibliography
   details_link: Details
 
-  type_names: { article: "Journal articles", unrefereed: "Non-refereed proceedings", poster: "Posters", misc: "Technical Reports", book: "Volumes edited" }
-  type_aliases: { }
-
+  type_names:
+    { article: "Journal articles", unrefereed: "Non-refereed proceedings", poster: "Posters", misc: "Technical Reports", book: "Volumes edited" }
+  type_aliases: {}
 
   query: "@*"
   group_by: type, year

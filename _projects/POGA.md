@@ -6,7 +6,7 @@ img: assets/img/poga.png
 importance: 1
 category: work
 related_publications: true
-start: 2022 Oct  
+start: 2022 Oct
 end: 2025 Oct
 agency: TUBITAK 1001
 funding: ~50k euro
@@ -33,7 +33,3 @@ project we focus on using these techniques for extending Polyhedral Omega to Sym
 On the other hand, we develop a general method for solving ILP. The main advantage of the method is that
 it allows to analyze the geometry of the solution space through Brion decompositions. Moreover, for certain
 families of problems it may be competitive with existing heuristics.s
-
-
-
- 

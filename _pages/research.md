@@ -2,24 +2,20 @@
 layout: page
 permalink: /research/
 title: Research
-description: 
+description:
 nav: true
 nav_order: 1
 tikzjax: true
 sage: true
-
-
 ---
- 
+
 **The one sentence statement of my research plan is to "develop and implement
 algorithms, combining geometry and algebra, for the treatment of enumeration and optimization problems coming from combinatorics and number theory".**
 <br><br>
 
 In what follows I present briefly my research interests, with the help of [SageMath](https://sagemath.org) (see how in [HowTo](../howto)).
 
-Here is a [list of my  publications](#publications).
-
-
+Here is a [list of my publications](#publications).
 
 Since the ancient times, mathematicians were developing computational and
 algorithmic tools in order to answer the various mathematical questions or daily
@@ -41,8 +37,7 @@ concerned.
 I am mostly interested in research topics combining tools from different areas.
 Except for the intrinsic importance of interdisciplinary research, another
 reason is that **knowledge transfer leads to better
-algorithmic solutions**. 
-
+algorithmic solutions**.
 
 In particular, algorithms from polyhedral and algebraic geometry can
 be used in order to devise algorithms to solve combinatorial or number
@@ -55,19 +50,19 @@ The two main themes of my research are **algorithmic enumeration** and **change 
 In order to achieve my research goals, the computation of bases and
 decompositions becomes necessary.
 
-
 ### Algorithmic Enumeration
 
 Enumeration can be thought of as either counting or listing the elements
 of a set.
 A number of problems can be viewed as enumeration problems, e.g., counting or listing
-* non-negative integer solutions to linear systems
-* integer partitions
-* lattice points in polyhedra
-* (complex, real, etc.) roots of algebraic systems
-* magic squares and other combinatorial structures
-* orthogonal designs
- 
+
+- non-negative integer solutions to linear systems
+- integer partitions
+- lattice points in polyhedra
+- (complex, real, etc.) roots of algebraic systems
+- magic squares and other combinatorial structures
+- orthogonal designs
+
 Since the algorithmic solution of enumeration problems is essential,
 their algorithmic complexity is important.
 Some of these problems are easy in terms of complexity, while others are hard.
@@ -98,9 +93,12 @@ For example, if we consider integer partitions, we can formulate the problem of
 listing all integer partitions, i.e., the set of all finite and non-decreasing
 sequences of integers greater than zero denoted by $$S$$.
 The corresponding generating function is
-$$\displaystyle
+
+$$
+\displaystyle
  \sum_{s\in S} z^s.
 $$
+
 Although the listing problem is valid, the counting problems is meaningless,
 since their number is obviously infinite.
 One can consider though, the integer partitions of an integer $$n$$,
@@ -108,14 +106,20 @@ denoted by $$S_n$$.
 In that case, the number of partitions is finite for arbitrary but fixed $$n$$
 and thus both the listing and the counting problems are meaningful.
 For the listing problem we have the generating function
-$$\displaystyle
+
+$$
+\displaystyle
 \sum_{n=1}^{\infty} q^n \sum_{s\in S_n} z^s,
 $$
+
 while for the counting problem the generating function is
-$$\displaystyle
+
+$$
+\displaystyle
  \sum_{n=1}^{\infty} q^n \big| S_n \big| = \left(\sum_{n=1}^{\infty} q^n
 \left(\sum_{s\in S_n} z^s\right)\right)_{z_i=1}.
 $$
+
 This refined counting, where $$n$$ is a parameter defining the clustering of
 integer partitions, can be refined further.
 For example, we can ask for the integer partitions of $$n$$ consisting of $$k$$
@@ -128,15 +132,14 @@ partition theory.
 The problems in algorithmic enumeration that I have studied and are still part
 of my research plan include the solution of **linear Diophantine systems** and
 the computation of rational generating functions for integer partitions
-under linear constraints,  the
+under linear constraints, the
 computation of rational generating functions for the lattice points in
 **polyhedra of infinite dimension**, the algorithmic
 treatment of identities concerning integer partitions and their generating
-functions, the efficient computation of **Ehrhart polynomials**,  computing the directional multiplicity
-of isolated points in affine varieties, 
+functions, the efficient computation of **Ehrhart polynomials**, computing the directional multiplicity
+of isolated points in affine varieties,
 and the counting of real roots of algebraic systems
 {% cite studbook %}.
-
 
 ### Change of Representation
 
@@ -166,8 +169,7 @@ the first representation is more convenient while for other questions it is the 
 For example, if we want to check if a point belongs to a curve, then the implicit form is better {% cite issac15 %}.
 If we want to plot the curve though, the parametric form {% cite ptopo2023 %} is better.
 
-
-The change of representation theme, appears in my research clearly 
+The change of representation theme, appears in my research clearly
 in the treatment of integer partitions as lattice points
 in polyhedra and in the
 consideration of the Ehrhart polynomial computation as an interpolation
@@ -199,14 +201,13 @@ compute the Newton polytope of the implicit equation.
 Finally, after having the algorithmic tools and useful descriptions of our objects,
 the next natural question is to optimize a linear functional over those objects.
 In general, various forms of discrete optimization arise within my research.
-In particular, I am interested in Integer Linear Programming, since it is the 
+In particular, I am interested in Integer Linear Programming, since it is the
 optimization version of solving linear Diophantine systems.
-In addition, a lot of problems can be approached as Integer Linear Programs (e.g., we currently study 
+In addition, a lot of problems can be approached as Integer Linear Programs (e.g., we currently study
 polynomial multiplication in this setting).
-Clearly the methods coming from this research lead to general solutions and thus not expected to 
-perform better than the excellent existing heuristics. 
-The goal is to study the geometry of problem families and detect families where our tools may perform well. 
- 
+Clearly the methods coming from this research lead to general solutions and thus not expected to
+perform better than the excellent existing heuristics.
+The goal is to study the geometry of problem families and detect families where our tools may perform well.
 
 <script type="text/tikz"> 
 
@@ -252,17 +253,14 @@ at (#1) {#4};
     \end{tikzpicture}
 </script>
 
-
-
 <!-- _pages/publications.md -->
 
 <!-- Bibsearch Feature -->
 
 <!-- {% include bib_search.liquid %} -->
 
-# Publications 
+# Publications
 
 <div class="publications">
 {% bibliography  %}
 </div>
-

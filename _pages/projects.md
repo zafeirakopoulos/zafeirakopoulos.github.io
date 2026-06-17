@@ -2,10 +2,10 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Research projects (as principal investigator) 
+description: Research projects (as principal investigator)
 nav: true
 nav_order: 4
-display_categories: 
+display_categories:
 horizontal: false
 ---
 

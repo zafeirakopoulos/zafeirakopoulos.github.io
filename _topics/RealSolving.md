@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Real Solving
-description: 
-img: 
+description:
+img:
 importance: 3
 category: topics
 related_publications: true

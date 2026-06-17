@@ -9,7 +9,7 @@
     >
       <table class="table table-sm table-borderless">
         {% assign talks = site.talks | reverse %}
-       
+
         {% for item in talks %}
           <tr>
             <th scope="row" style="width: 20%">{{ item.date | date: '%b %d, %Y' }}</th>
@@ -17,7 +17,11 @@
               {% if item.inline %}
                 {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
               {% else %}
-                <a class="news-title" >{{item.venue}} <br> {{ item.title }}</a>
+                <a class="news-title">
+                  {{- item.venue }}
+                  <br>
+                  {{ item.title -}}
+                </a>
               {% endif %}
             </td>
           </tr>

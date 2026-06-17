@@ -5,7 +5,7 @@ permalink: /topics/
 description: Θέματα εργασιών
 nav: true
 nav_order: 8
-display_categories: 
+display_categories:
 horizontal: false
 ---
 

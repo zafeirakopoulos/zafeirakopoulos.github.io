@@ -1,9 +1,9 @@
 ---
 layout: page
-start: 2018 Oct  
+start: 2018 Oct
 end: 2020 Feb
-title: Algebraic Motion Planning 
-description:  Developing algebraic tools for motion planning in dynamic environments
+title: Algebraic Motion Planning
+description: Developing algebraic tools for motion planning in dynamic environments
 importance: 3
 category: work
 agency: Reasearch Council of Gebze Technical University

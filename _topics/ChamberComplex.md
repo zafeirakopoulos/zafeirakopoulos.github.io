@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Chamber Complex
-description: 
-img: 
+description:
+img:
 importance: 2
 category: topics
 related_publications: true

@@ -6,7 +6,7 @@ img: assets/img/mathdata.png
 importance: 2
 category: work
 related_publications: true
-start: 2017 Mar  
+start: 2017 Mar
 end: 2019 Jul
 agency: TUBITAK 3001
 funding: ~17k euro
@@ -24,8 +24,8 @@ In recent years, a lot of effort has been put by the Mathematical Knowledge Mana
 
 At the same time, the need for reproducible research is constantly growing. From journals to courses, one can observe the recent increase in the interest on reproducible research. A number of web services offering to store datasets are available, but they focus mostly on scalar data. Nevertheless, despite the lack of the right tools, there are various projects intended to produce databases of mathematical objects. The efforts are fragmented and each project adopts different policies and representation principles. The lack of a uniform way to represent, exchange and store data in a robust way hinders the usability of those databases.
 
-Part of the need for MathData lies exactly in the surprisingly bad shape the state-of-the-art solutions are, for such an important problem. 
-This project was about developing a standard representation for storing and sharing MathData, in the form of the description language MathDataLanguage. 
+Part of the need for MathData lies exactly in the surprisingly bad shape the state-of-the-art solutions are, for such an important problem.
+This project was about developing a standard representation for storing and sharing MathData, in the form of the description language MathDataLanguage.
 By providing a unified and publicly accessible MathDataLibrary, we expect that the communities of both mathematicians and computer scientists will embrace the new standard and take advantage of it.
 
 Building on this new data representation, we develop a fully automated system for performing benchmarks. The benchmarks are shareable, reusable and reproducible, because they are expressed in a descriptive language that is independent of the scientific area, the hardware platform or the software used. This way, we can reproduce all the tasks necessary in any given environment fully automatically.

@@ -1,7 +1,7 @@
 ---
 layout: page
 title: GRAPE
-description: Gr&#246;bner Bases, Resultants and Polyhedral Geometry 
+description: Gr&#246;bner Bases, Resultants and Polyhedral Geometry
 img: assets/img/grape.png
 importance: 2
 category: work
@@ -11,6 +11,7 @@ funding: ~50k euro
 PI: Zafeirakis Zafeirakopoulos, Ayesha Asloob Qureshi, Elias Tsigaridas (INRIA Paris, French side)
 status: concluded
 ---
+
 GRAPE is about the use of polyhedral methods in the theory of sparse polynomial systems. The goal is to combine
 polyhedral and toric geometry with the study of sparse systems and especially concerning resultants and Gröbner
 bases.
@@ -25,4 +26,3 @@ resultants and Gröbner bases. Last year, members of the French team presented a
 is clear that more polyhedral geometry is needed in order to proceed and this is what this project is about. Bringing
 together two complementary teams in order to work on a state-of-the-art topic. But instead of trying to improve the
 existing result only, what we suggest is a generalization of the framework as well.
- 

@@ -1,18 +1,17 @@
 ---
 layout: page
 title: HALCYON
-description: Heterogeneous Algorithms for Combinatorics, Geometry, Optimization and Number Theory 
+description: Heterogeneous Algorithms for Combinatorics, Geometry, Optimization and Number Theory
 img: assets/img/halcyon.png
 importance: 2
 category: work
-start: 2017 Oct  
+start: 2017 Oct
 end: 2020 Oct
 agency: TUBITAK 3501
 funding: ~80k euro
 PI: Zafeirakis Zafeirakopoulos
 status: concluded
 ---
-
 
 In an era of transition, from petascale to exascale computation, it is crucial to contemplate on our algorithmic tools. Computers become more powerful every day, but we have reached the limits of the computational power that our algorithms can exploit. We need to adapt old algorithms and develop new ones that can harvest the computational power available today and tomorrow. The algorithms that need to be improved are both low-level procedures such as arithmetic and higher level methods such as generating function methods. The priority in this procedure must be given in the algorithmic methods that will allow us to solve more efficiently important industrial and academic problems. Given the expected growth in computational power, if we are ready to use it in its maximum potential, we will be able to solve industrial and academic problems that today look out of reach.
 

@@ -49,13 +49,12 @@ layout: default
     {% endif %}
 
     <!-- Selected papers -->
- 
-      <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected publications</a>
-      </h2>
-      {% include selected_papers.liquid %}
- 
-      
+
+    <h2>
+      <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected publications</a>
+    </h2>
+    {% include selected_papers.liquid %}
+
     <!-- Social -->
     {% if page.social %}
       <div class="social">
@@ -64,7 +63,5 @@ layout: default
         <div class="contact-note">{{ site.contact_note }}</div>
       </div>
     {% endif %}
-
- 
   </article>
 </div>
