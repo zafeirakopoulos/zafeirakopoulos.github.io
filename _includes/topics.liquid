@@ -1,6 +1,22 @@
+{% if topic.difficulty == 'introductory' %}
+  {% assign card_bg = 'rgba(13,110,253,0.08)' %}
+{% elsif topic.difficulty == 'easy' %}
+  {% assign card_bg = 'rgba(25,135,84,0.08)' %}
+{% elsif topic.difficulty == 'normal' %}
+  {% assign card_bg = 'rgba(255,193,7,0.08)' %}
+{% elsif topic.difficulty == 'difficult' %}
+  {% assign card_bg = 'rgba(220,53,69,0.08)' %}
+{% else %}
+  {% assign card_bg = '' %}
+{% endif %}
 <div class="col">
   <a href="{% if topic.redirect %}{{ topic.redirect }}{% else %}{{ topic.url | relative_url }}{% endif %}">
-    <div class="card h-100 hoverable">
+    <div
+      class="card h-100 hoverable"
+      {% if card_bg != '' %}
+        style="background-color: {{ card_bg }};"
+      {% endif %}
+    >
       {% if topic.img %}
         {%
           include figure.liquid
@@ -12,9 +28,9 @@
         %}
       {% endif %}
       <div class="card-body">
+        {% include topic_tags.liquid topic=topic hide_difficulty=true %}
         <h2 class="card-title">{{ topic.title }}</h2>
         <p class="card-text">{{ topic.description }}</p>
-        {% include topic_tags.liquid topic=topic %}
         <div class="row ml-1 mr-1 p-0">
           {% if topic.github %}
             <div class="github-icon">
