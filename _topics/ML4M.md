@@ -37,12 +37,12 @@ Replicate the Lample–Charton integration experiment on a small dataset of rati
 
 ## Tasks
 
-| ID  | Title                                      | Start      | End        | Status |
-| --- | ------------------------------------------ | ---------- | ---------- | ------ |
-| T1  | Replicate Lample–Charton experiment        | 2025-11-05 | 2025-11-25 | todo   |
-| T2  | Design algebraic ML task                   | 2025-11-26 | 2025-12-20 | todo   |
-| T3  | Train, evaluate, compare to exact solver   | 2025-12-21 | 2026-01-30 | todo   |
-| T4  | Ablations + write-up                       | 2026-01-31 | 2026-02-28 | todo   |
+| ID  | Title                                    | Start      | End        | Status |
+| --- | ---------------------------------------- | ---------- | ---------- | ------ |
+| T1  | Replicate Lample–Charton experiment      | 2025-11-05 | 2025-11-25 | todo   |
+| T2  | Design algebraic ML task                 | 2025-11-26 | 2025-12-20 | todo   |
+| T3  | Train, evaluate, compare to exact solver | 2025-12-21 | 2026-01-30 | todo   |
+| T4  | Ablations + write-up                     | 2026-01-31 | 2026-02-28 | todo   |
 
 ## Deliverables
 

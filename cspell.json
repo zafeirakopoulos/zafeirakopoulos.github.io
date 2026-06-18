@@ -23,11 +23,5 @@
     "Vuillemin",
     "Zenodo"
   ],
-  "ignorePaths": [
-    "assets/",
-    "_bibliography/",
-    "node_modules/",
-    "Gemfile.lock",
-    "package-lock.json"
-  ]
+  "ignorePaths": ["assets/", "_bibliography/", "node_modules/", "Gemfile.lock", "package-lock.json"]
 }

@@ -32,12 +32,12 @@ Study the Collins–Akritas algorithm in detail (correctness proof, termination,
 
 ## Milestones
 
-| ID | Title                                     | Due        |
-| -- | ----------------------------------------- | ---------- |
-| M1 | Understand Descartes rule + termination   | 2025-12-01 |
-| M2 | Implement Collins–Akritas                 | 2026-01-15 |
-| M3 | Benchmark vs. other isolators             | 2026-02-20 |
-| M4 | Final report                              | 2026-03-10 |
+| ID  | Title                                   | Due        |
+| --- | --------------------------------------- | ---------- |
+| M1  | Understand Descartes rule + termination | 2025-12-01 |
+| M2  | Implement Collins–Akritas               | 2026-01-15 |
+| M3  | Benchmark vs. other isolators           | 2026-02-20 |
+| M4  | Final report                            | 2026-03-10 |
 
 ## References
 

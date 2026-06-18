@@ -42,9 +42,8 @@ The CF arithmetic section begins at Item 101A. It is terse but complete; the key
 
 3. A. Edalat and P. J. Potts. _A New Representation for Exact Real Numbers_.
    **Electronic Notes in Theoretical Computer Science**, 6, 1997.
-   [DOI 10.1016/S1571-0661(05)80166-5](https://doi.org/10.1016/S1571-0661(05)80166-5)
+   [DOI 10.1016/S1571-0661(05)80166-5](<https://doi.org/10.1016/S1571-0661(05)80166-5>)
 
 4. M. Niqui. _Exact Arithmetic on the Stern–Brocot Tree_.
    **Journal of Discrete Algorithms**, 5(2):356–379, 2007.
    [DOI 10.1016/j.jda.2005.03.007](https://doi.org/10.1016/J.JDA.2005.03.007)
-
