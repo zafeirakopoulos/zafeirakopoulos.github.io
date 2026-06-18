@@ -3,7 +3,7 @@ layout: page
 title: Εργασίες
 permalink: /topics/
 description: Θέματα εργασιών
-nav: true
+nav: false
 nav_order: 8
 display_categories:
 horizontal: false
