@@ -48,8 +48,5 @@ The CF arithmetic section begins at Item 101A. It is terse but complete; the key
    **Journal of Logic and Algebraic Programming**, 66(2):99–147, 2006.
    [DOI 10.1016/j.jlap.2005.04.002](https://doi.org/10.1016/j.jlap.2005.04.002)
 
-5. H. Briggs. _Continued Fractions and the LLL Algorithm_.
-   A modern survey connecting Gosper's work to lattice reduction and computer algebra systems.
-
-6. M. Rauch. _Continued Fractions, Möbius Transformations and Clifford Algebras_.
+5. M. Rauch. _Continued Fractions, Möbius Transformations and Clifford Algebras_.
    **Bulletin of the Belgian Mathematical Society**, 11(2):193–210, 2004.
