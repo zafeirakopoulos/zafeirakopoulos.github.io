@@ -40,13 +40,11 @@ The CF arithmetic section begins at Item 101A. It is terse but complete; the key
    **IEEE Transactions on Computers**, 39(8):1087–1105, 1990.
    [DOI 10.1109/12.57047](https://doi.org/10.1109/12.57047)
 
-3. P. J. Potts and A. Edalat. _Exact Real Computer Arithmetic_.
-   Technical Report DoC 97/9, Imperial College, London, 1997.
-   [CiteSeerX](https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.43.5811)
+3. A. Edalat and P. J. Potts. _A New Representation for Exact Real Numbers_.
+   **Electronic Notes in Theoretical Computer Science**, 6, 1997.
+   [DOI 10.1016/S1571-0661(05)80166-5](https://doi.org/10.1016/S1571-0661(05)80166-5)
 
 4. M. Niqui. _Exact Arithmetic on the Stern–Brocot Tree_.
-   **Journal of Logic and Algebraic Programming**, 66(2):99–147, 2006.
-   [DOI 10.1016/j.jlap.2005.04.002](https://doi.org/10.1016/j.jlap.2005.04.002)
+   **Journal of Discrete Algorithms**, 5(2):356–379, 2007.
+   [DOI 10.1016/j.jda.2005.03.007](https://doi.org/10.1016/J.JDA.2005.03.007)
 
-5. M. Rauch. _Continued Fractions, Möbius Transformations and Clifford Algebras_.
-   **Bulletin of the Belgian Mathematical Society**, 11(2):193–210, 2004.
