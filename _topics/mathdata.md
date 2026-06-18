@@ -8,7 +8,7 @@ category: topics
 related_publications: false
 difficulty: normal
 level: [master, phd]
-content: [algebra, combinatorics, optimization]
+areas: [algebra, combinatorics, optimization]
 urgency: 6
 ---
 

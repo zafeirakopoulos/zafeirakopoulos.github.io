@@ -8,7 +8,7 @@ category: topics
 related_publications: false
 difficulty: normal
 level: [undergrad, master]
-content: [algebra]
+areas: [algebra]
 urgency: 5
 ---
 

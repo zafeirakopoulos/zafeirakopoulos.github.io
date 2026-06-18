@@ -8,7 +8,7 @@ category: topics
 related_publications: false
 difficulty: difficult
 level: [master, phd]
-content: [optimization, combinatorics]
+areas: [optimization, combinatorics]
 urgency: 7
 ---
 

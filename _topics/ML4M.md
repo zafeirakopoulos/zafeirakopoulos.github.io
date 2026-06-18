@@ -8,7 +8,7 @@ category: topics
 related_publications: false
 difficulty: normal
 level: [master, phd]
-content: [optimization, algebra]
+areas: [optimization, algebra]
 urgency: 5
 ---
 

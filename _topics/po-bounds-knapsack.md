@@ -8,7 +8,7 @@ category: topics
 related_publications: false
 difficulty: normal
 level: [master]
-content: [optimization, combinatorics]
+areas: [optimization, combinatorics]
 urgency: 6
 ---
 

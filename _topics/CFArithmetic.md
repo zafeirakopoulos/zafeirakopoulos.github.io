@@ -8,7 +8,7 @@ category: topics
 related_publications: false
 difficulty: normal
 level: [undergrad, master]
-content: [algebra, number-theory]
+areas: [algebra, number-theory]
 urgency: 5
 ---
 

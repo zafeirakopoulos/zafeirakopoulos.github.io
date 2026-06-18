@@ -8,7 +8,7 @@ category: topics
 related_publications: false
 difficulty: difficult
 level: [master, phd]
-content: [geometry, algebra, optimization]
+areas: [geometry, algebra, optimization]
 urgency: 6
 ---
 
