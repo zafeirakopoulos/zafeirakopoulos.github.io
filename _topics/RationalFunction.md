@@ -12,7 +12,11 @@ areas: [algebra]
 urgency: 5
 ---
 
-A **rational function** is a ratio $$r = P/Q$$ where $$P, Q \in \mathbb{Z}[x_1,\ldots,x_n]$$ are multivariate polynomials. Rational functions are the natural output of Polyhedral Omega, Barvinok's algorithm, and many combinatorial counting methods, where the generating function $$\sum_{k\geq 0} f(k)\,z^k = P(z)/Q(z)$$ encodes a sequence exactly.
+A **rational function** is a ratio $$r = P/Q$$ where $$P, Q \in \mathbb{Z}[x_1,\ldots,x_n]$$ are multivariate polynomials. Rational functions are the natural output of Polyhedral Omega, Barvinok's algorithm, and many combinatorial counting methods: the generating function
+
+$$\sum_{k\geq 0} f(k)\,z^k = \frac{P(z)}{Q(z)}$$
+
+encodes a sequence $$f(k)$$ (e.g., the number of integer points in a scaled polytope) as a ratio of polynomials.
 
 Efficient arithmetic on these objects — addition, multiplication, reduction to lowest terms — is a bottleneck in large-scale computations.
 
@@ -20,13 +24,13 @@ Efficient arithmetic on these objects — addition, multiplication, reduction to
 
 **Canonical form.** A rational function $$P/Q$$ is in canonical form when $$\gcd(P,Q)=1$$. Computing $$\gcd$$ of multivariate polynomials requires a subresultant or modular GCD algorithm and is the dominant cost.
 
-**Addition.** $$\frac{P_1}{Q_1} + \frac{P_2}{Q_2} = \frac{P_1 Q_2 + P_2 Q_1}{Q_1 Q_2}$$, followed by reduction. The common denominator $$Q_1 Q_2 / \gcd(Q_1,Q_2)$$ is smaller when the denominators share factors, so computing $$\gcd(Q_1,Q_2)$$ first is essential.
+**Addition.** $$\dfrac{P_1}{Q_1} + \dfrac{P_2}{Q_2} = \dfrac{P_1 Q_2 + P_2 Q_1}{Q_1 Q_2}$$, followed by GCD reduction. Computing $$\gcd(Q_1,Q_2)$$ first gives a smaller common denominator and avoids unnecessary coefficient growth.
 
-**Partial fractions.** In one variable, $$P(z)/Q(z)$$ can be decomposed into a sum over the roots of $$Q$$. Multivariate partial fractions arise in Barvinok-style residue computations and are more subtle.
+**Partial fractions.** Decompose $$P(z)/Q(z)$$ into a sum of simpler fractions with irreducible-power denominators. Used to extract specific coefficients $$[z^k]P/Q$$ as closed-form expressions. See also the [Partial Fraction Decomposition](/topics/partialfraction/) topic.
 
 ## Sparse representation
 
-When $$P$$ and $$Q$$ have few nonzero terms relative to their degree (as often happens in combinatorial generating functions), a **sparse** representation — storing only nonzero monomials — dramatically reduces memory and computation cost compared to dense arrays. The challenge is that arithmetic on sparse polynomials requires careful data structures (hash maps, sorted term lists) to avoid quadratic blowup.
+Combinatorial generating functions are typically **sparse**: their numerators and denominators have far fewer nonzero terms than the dense worst case. A sparse representation — storing only nonzero monomials in a hash map or sorted list — dramatically reduces memory and computation. The challenge is avoiding quadratic blowup when multiplying two sparse polynomials with overlapping support.
 
 ## Goal
 
@@ -57,3 +61,13 @@ Survey sparse multivariate polynomial representations, implement core rational f
 - Julia package with tests
 - Benchmark against existing tools
 - Short report (6–8 pages)
+
+## References
+
+1. A. I. Barvinok. _A Polynomial Time Algorithm for Counting Integral Points in Polyhedra When the Dimension is Fixed._
+   **Mathematics of Operations Research**, 19(4):769–779, 1994.
+   [DOI 10.1287/moor.19.4.769](https://doi.org/10.1287/moor.19.4.769)
+
+2. M. Köppe and S. Verdoolaege. _Computing Parametric Rational Generating Functions with a Primal Barvinok Algorithm._
+   **Electronic Journal of Combinatorics**, 15(1), 2008.
+   [combinatorics.org](http://www.combinatorics.org/Volume_15/Abstracts/v15i1r16.html)
