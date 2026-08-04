@@ -241,7 +241,6 @@ include: ["_pages"]
 exclude:
   # TODO remove from exclude if I want some of the _pages
   - _pages/cv.md
-  - _pages/blog.md
   - _pages/profiles.md
   - _pages/dropdown.md
   - bin/
