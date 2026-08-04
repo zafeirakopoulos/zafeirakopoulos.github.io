@@ -7,9 +7,9 @@ importance: 4
 category: topics
 related_publications: false
 difficulty: normal
-level: [master, phd]
-areas: [algebra, combinatorics, optimization]
-urgency: 6
+level: [master]
+areas: [big data, machine learning]
+urgency: 8
 ---
 
 Modern science produces increasingly large volumes of data consisting of mathematical (structured) objects.
@@ -26,7 +26,7 @@ The mathdata project addresses several fundamental problems:
 
 ## Goals
 
-- Develop a language (MathDataLang) for describing mathematical data
+- Develop a DSL (MathDataLang) for describing mathematical data
 - Implement a database of mathdata objects
 - Build a system for automatic benchmarking
 - Create a community around MathData
@@ -46,15 +46,4 @@ The mathdata project addresses several fundamental problems:
 - Repo: [math-data](https://github.com/zafeirakopoulos/math-data)
 - Related: [OpenMath](https://openmath.org/), [MathML](https://en.wikipedia.org/wiki/MathML), [OEIS](https://oeis.org/)
 
-## Plan
 
-```mermaid
-gantt
-  title mathdata — Plan
-  dateFormat  YYYY-MM-DD
-  axisFormat  %b %d
-  Schema draft                  :done,   m1, 2025-11-01, 2025-11-10
-  Canonical forms + hashing    :active, m2, 2025-11-11, 2025-12-20
-  Serializers & round-trips    :        m3, 2025-12-21, 2026-01-30
-  Integration demos            :        m4, 2026-01-31, 2026-02-28
-```

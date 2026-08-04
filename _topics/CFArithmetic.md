@@ -8,8 +8,8 @@ category: topics
 related_publications: false
 difficulty: normal
 level: [undergrad, master]
-areas: [algebra, number-theory]
-urgency: 5
+areas: [algebra, number-theory,implementation]
+urgency: 4
 ---
 
 A continued fraction is a representation of a number as a nested sequence of integer parts:
@@ -24,17 +24,37 @@ In 1972, Bill Gosper described in [HAKMEM](https://zenodo.org/records/17304584) 
 
 The key idea is to track a $$2\times2$$ integer matrix (for unary operations) or a $$2\times2\times2$$ integer tensor (for binary operations), updating it as new partial quotients are consumed from the input(s) and emitting an output partial quotient whenever the matrix entries agree sufficiently.
 
-HAKMEM is available at:
+The CF arithmetic section begins at Item 101A of the HAKMEM. It is terse but complete; the key insight (a tensor-based homographic algorithm) was not widely understood until the 1990s.
 
-- [Zenodo (digitised scan)](https://zenodo.org/records/17304584)
-- [MIT — original memo](https://hdl.handle.net/1721.1/6086)
 
-The CF arithmetic section begins at Item 101A. It is terse but complete; the key insight (a tensor-based homographic algorithm) was not widely understood until the 1990s.
+## Goal 
+
+Implement "fast and lazy" real arithmetic. Σπεύδε βραδέως (R)
+
+## Tasks
+
+1. Literature review
+
+2. Implementation
+
+3. Benchmarking
+
+4. Extension to transcendental function computations.
+
+5. Complete report
+
+6. **alcyon** submodule for ScalarArithmetic with full documentation
+
+## Deliverables 
+
+- Julia package with tests
+- Reproducible benchmarks
+- Short report (6–8 pages)
 
 ## References
 
 1. R. W. Gosper. _Continued Fraction Arithmetic_. In **HAKMEM**, MIT AI Memo 239, 1972.
-   [Zenodo](https://zenodo.org/records/17304584) · [MIT handle](https://hdl.handle.net/1721.1/6086)
+    [MIT handle](https://hdl.handle.net/1721.1/6086)
 
 2. J. E. Vuillemin. _Exact Real Computer Arithmetic with Continued Fractions_.
    **IEEE Transactions on Computers**, 39(8):1087–1105, 1990.
