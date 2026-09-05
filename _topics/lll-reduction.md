@@ -69,3 +69,7 @@ Implement LLL over $$\mathbb{Q}$$ (exact arithmetic), verify the size-reduction 
 1. A. K. Lenstra, H. W. Lenstra Jr., and L. Lovász. _Factoring polynomials with rational coefficients._
    **Mathematische Annalen**, 261(4):515–534, 1982.
    [DOI 10.1007/bf01457454](https://doi.org/10.1007/bf01457454)
+
+2. P. Q. Nguyen and B. Vallée (eds.). _The LLL Algorithm: Survey and Applications._
+   **Information Security and Cryptography**, Springer, 2010.
+   [DOI 10.1007/978-3-642-02295-1](https://doi.org/10.1007/978-3-642-02295-1)

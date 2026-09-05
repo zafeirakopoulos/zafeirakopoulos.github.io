@@ -60,3 +60,7 @@ Implement all three algorithms for univariate polynomials over $$\mathbb{Z}$$, v
 1. G. E. Collins. _Subresultants and Reduced Polynomial Remainder Sequences._
    **Journal of the ACM**, 14(1):128–142, 1967.
    [DOI 10.1145/321371.321381](https://doi.org/10.1145/321371.321381)
+
+2. W. S. Brown. _On Euclid's Algorithm and the Computation of Polynomial Greatest Common Divisors._
+   **Journal of the ACM**, 18(4):478–504, 1971.
+   [DOI 10.1145/321662.321664](https://doi.org/10.1145/321662.321664)

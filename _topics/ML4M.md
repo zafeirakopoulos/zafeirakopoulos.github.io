@@ -56,3 +56,7 @@ Replicate the Lample–Charton integration experiment on a small dataset of rati
 1. G. Lample and F. Charton. _Deep Learning For Symbolic Mathematics._
    ICLR 2020, OpenReview.net.
    [openreview.net/forum?id=S1eZYeHFDS](https://openreview.net/forum?id=S1eZYeHFDS)
+
+2. A. Davies, P. Veličković, L. Buesing, S. Blackwell, D. Zheng, N. Tomašev, R. Tanburn, et al. _Advancing mathematics by guiding human intuition with AI._
+   **Nature**, 600:70–74, 2021.
+   [DOI 10.1038/s41586-021-04086-x](https://doi.org/10.1038/s41586-021-04086-x)

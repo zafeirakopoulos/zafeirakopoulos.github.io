@@ -53,3 +53,13 @@ The mathdata project addresses several fundamental problems:
 
 - Repo: [math-data](https://github.com/zafeirakopoulos/math-data)
 - Related: [OpenMath](https://openmath.org/), [MathML](https://en.wikipedia.org/wiki/MathML), [OEIS](https://oeis.org/)
+
+## References
+
+1. M. D. Wilkinson et al. _The FAIR Guiding Principles for scientific data management and stewardship._
+   **Scientific Data**, 3:160018, 2016.
+   [DOI 10.1038/sdata.2016.18](https://doi.org/10.1038/sdata.2016.18)
+
+2. A. Heinle and V. Levandovskyy. _The SDEval benchmarking toolkit._
+   **ACM Communications in Computer Algebra**, 49(1):1–9, 2015.
+   [DOI 10.1145/2768577.2768578](https://doi.org/10.1145/2768577.2768578)
