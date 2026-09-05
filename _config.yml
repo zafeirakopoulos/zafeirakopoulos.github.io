@@ -28,6 +28,11 @@ selected_papers: true
 # Theme
 # -----------------------------------------------------------------------------
 
+# Host serving the repository cards. The original github-readme-stats is no
+# longer maintained; github-stats-extended is its API-compatible successor.
+# Point this at your own deployment if the public instance gets rate limited.
+repo_stats_host: https://github-stats-extended.vercel.app
+
 # repo color theme
 repo_theme_light: default # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
 repo_theme_dark: dark # https://github.com/anuraghazra/github-readme-stats/blob/master/themes/README.md
