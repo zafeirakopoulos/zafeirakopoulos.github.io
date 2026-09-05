@@ -42,6 +42,13 @@ The mathdata project addresses several fundamental problems:
 
 **DataSanitizer** — validates instances against MathDataLang definitions.
 
+## Deliverables
+
+- MathDataLang DSL specification and reference implementation
+- Working prototype of the database (backend + basic frontend)
+- Automatic benchmarking system connected to the database
+- Documentation and example datasets
+
 ## Resources
 
 - Repo: [math-data](https://github.com/zafeirakopoulos/math-data)

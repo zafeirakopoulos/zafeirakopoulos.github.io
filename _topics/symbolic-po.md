@@ -31,18 +31,11 @@ This yields:
 2. **Chamber decomposition** — subdivide parameter space into chambers such that the generating function is a fixed rational function within each chamber.
 3. **Computational complexity** — the number of chambers may be exponential; efficient data structures and algorithms are needed.
 
-## Plan
+## Deliverables
 
-```mermaid
-gantt
-  title Symbolic PO — Semester Plan
-  dateFormat  YYYY-MM-DD
-  axisFormat  %b %d
-  Theory notes                  :done,   a1, 2025-11-01, 2025-11-20
-  Parametric cone ops           :active, a2, 2025-11-21, 2025-12-20
-  Families case studies         :        a3, 2025-12-21, 2026-02-05
-  Report & examples             :        a4, 2026-02-06, 2026-03-01
-```
+- Julia prototype extending Polyhedral Omega to symbolic parameters on a restricted case
+- Worked examples showing parametric feasibility regions and optimal value functions
+- Short report (6–8 pages)
 
 ## References
 

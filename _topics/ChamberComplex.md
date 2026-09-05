@@ -43,18 +43,11 @@ induced by the rows of $$A$$ and the sign conditions that define feasibility tra
 
 Study the definition and properties of chamber complexes, implement a basic algorithm for low-dimensional parameter spaces, and apply it to small parametric knapsack instances using the Polyhedral Omega package.
 
-## Plan
+## Deliverables
 
-```mermaid
-gantt
-  title Chamber Complex — Semester Plan
-  dateFormat  YYYY-MM-DD
-  axisFormat  %b %d
-  Theory: arrangements & fans :done,   c1, 2025-11-01, 2025-11-21
-  Small examples (d=2,3)       :active, c2, 2025-11-22, 2025-12-20
-  Implementation prototype     :        c3, 2025-12-21, 2026-02-01
-  Report & examples            :        c4, 2026-02-02, 2026-03-01
-```
+- Julia implementation of chamber complex enumeration for low-dimensional parameter spaces
+- Application to small parametric knapsack instances via Polyhedral Omega
+- Short report (6–8 pages)
 
 ## References
 

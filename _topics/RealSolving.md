@@ -40,6 +40,12 @@ Study the Collins–Akritas algorithm in detail (correctness proof, termination,
 | M3  | Benchmark vs. other isolators           | 2026-02-20 |
 | M4  | Final report                            | 2026-03-10 |
 
+## Deliverables
+
+- Julia implementation of the Collins–Akritas algorithm
+- Experimental comparison with alternative real root isolators
+- Final report
+
 ## References
 
 1. G. E. Collins and A. G. Akritas. _Polynomial real root isolation using Descartes' rule of signs._

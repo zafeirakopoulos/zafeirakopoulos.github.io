@@ -25,18 +25,11 @@ This is the broader research program around efficient arithmetic for rational fu
 
 **Cache-friendly multiplication & reduction.** Multiplying two sparse polynomials is essentially a merge of term products; sorting strategies and SIMD-friendly layouts can give significant speedups. GCD-based reduction is the dominant cost and benefits from modular techniques.
 
-## Plan
+## Deliverables
 
-```mermaid
-gantt
-  title Rational Function Arithmetic — Semester Plan
-  dateFormat  YYYY-MM-DD
-  axisFormat  %b %d
-  Data structures survey         :done,  r1, 2025-11-01, 2025-11-14
-  Multiplication kernels         :active,r2, 2025-11-15, 2025-12-15
-  PF decomposition pipeline      :      r3, 2025-12-16, 2026-02-01
-  Benchmarks + write-up          :      r4, 2026-02-02, 2026-03-01
-```
+- Julia package implementing sparse rational function arithmetic
+- Benchmark comparing sparse vs. dense representations
+- Short report (6–8 pages)
 
 ## References
 
