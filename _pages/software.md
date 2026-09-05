@@ -90,7 +90,7 @@ Grew out of my macros collection while writing my thesis.
 [Available in CTAN.](https://ctan.org/pkg/polyhedra)
 
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-    {% include repository/repo.liquid repository="alcyon-lab/tikz-polyhedra" %}
+    {% include repository/repo.liquid repository="zafeirakopoulos/polyhedra.sty" %}
 </div>
 
 ## Gebze Technical University LaTeX styles
