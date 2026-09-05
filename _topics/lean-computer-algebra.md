@@ -37,21 +37,21 @@ Implement one executable computer algebra primitive (polynomial GCD or a small G
 
 ## Milestones
 
-| ID  | Title                                         | Due        |
-| --- | --------------------------------------------- | ---------- |
-| M1  | Lean 4 + Mathlib setup; survey polynomial API | 2026-12-01 |
-| M2  | Executable algorithm implemented (untrusted)  | 2027-01-15 |
-| M3  | Correctness proof connecting it to Mathlib    | 2027-02-20 |
-| M4  | Write-up + clean Lean file                    | 2027-03-10 |
+| ID  | Title                                         |
+| --- | --------------------------------------------- |
+| M1  | Lean 4 + Mathlib setup; survey polynomial API |
+| M2  | Executable algorithm implemented (untrusted)  |
+| M3  | Correctness proof connecting it to Mathlib    |
+| M4  | Write-up + clean Lean file                    |
 
 ## Tasks
 
-| ID  | Title                                           | Start      | End        | Status |
-| --- | ----------------------------------------------- | ---------- | ---------- | ------ |
-| T1  | Learn Lean 4 + Mathlib's polynomial/ideal API   | 2026-11-05 | 2026-12-01 | todo   |
-| T2  | Implement the executable algorithm              | 2026-12-02 | 2027-01-15 | todo   |
-| T3  | Prove correctness against Mathlib's abstraction | 2027-01-16 | 2027-02-20 | todo   |
-| T4  | Clean proof + write-up                          | 2027-02-21 | 2027-03-10 | todo   |
+| ID  | Title                                           | Status |
+| --- | ----------------------------------------------- | ------ |
+| T1  | Learn Lean 4 + Mathlib's polynomial/ideal API   | todo   |
+| T2  | Implement the executable algorithm              | todo   |
+| T3  | Prove correctness against Mathlib's abstraction | todo   |
+| T4  | Clean proof + write-up                          | todo   |
 
 ## Deliverables
 

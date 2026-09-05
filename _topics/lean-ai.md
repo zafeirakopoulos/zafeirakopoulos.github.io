@@ -37,21 +37,21 @@ Build a small, reproducible evaluation pipeline (data extraction from Lean proof
 
 ## Milestones
 
-| ID  | Title                                                       | Due        |
-| --- | ----------------------------------------------------------- | ---------- |
-| M1  | Environment setup; extract proof states from a Lean project | 2026-12-01 |
-| M2  | Baseline model running end-to-end on extracted data         | 2027-01-15 |
-| M3  | Evaluation + failure analysis                               | 2027-02-20 |
-| M4  | Final report                                                | 2027-03-10 |
+| ID  | Title                                                       |
+| --- | ----------------------------------------------------------- |
+| M1  | Environment setup; extract proof states from a Lean project |
+| M2  | Baseline model running end-to-end on extracted data         |
+| M3  | Evaluation + failure analysis                               |
+| M4  | Final report                                                |
 
 ## Tasks
 
-| ID  | Title                                                 | Start      | End        | Status |
-| --- | ----------------------------------------------------- | ---------- | ---------- | ------ |
-| T1  | Set up LeanDojo (or equivalent) data extraction       | 2026-11-05 | 2026-12-01 | todo   |
-| T2  | Run a baseline retrieval/tactic model                 | 2026-12-02 | 2027-01-15 | todo   |
-| T3  | Build the evaluation benchmark + run failure analysis | 2027-01-16 | 2027-02-20 | todo   |
-| T4  | Write-up                                              | 2027-02-21 | 2027-03-10 | todo   |
+| ID  | Title                                                 | Status |
+| --- | ----------------------------------------------------- | ------ |
+| T1  | Set up LeanDojo (or equivalent) data extraction       | todo   |
+| T2  | Run a baseline retrieval/tactic model                 | todo   |
+| T3  | Build the evaluation benchmark + run failure analysis | todo   |
+| T4  | Write-up                                              | todo   |
 
 ## Deliverables
 

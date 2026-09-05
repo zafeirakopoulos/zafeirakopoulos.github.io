@@ -37,21 +37,21 @@ Formalize Farkas' lemma (or a comparably load-bearing polyhedral theorem) in Lea
 
 ## Milestones
 
-| ID  | Title                                                 | Due        |
-| --- | ----------------------------------------------------- | ---------- |
-| M1  | Lean 4 + Mathlib setup; survey existing convexity API | 2026-12-01 |
-| M2  | State target theorem; sketch the paper proof          | 2027-01-15 |
-| M3  | Main theorem formalized and compiling                 | 2027-02-20 |
-| M4  | Write-up + clean Lean file                            | 2027-03-10 |
+| ID  | Title                                                 |
+| --- | ----------------------------------------------------- |
+| M1  | Lean 4 + Mathlib setup; survey existing convexity API |
+| M2  | State target theorem; sketch the paper proof          |
+| M3  | Main theorem formalized and compiling                 |
+| M4  | Write-up + clean Lean file                            |
 
 ## Tasks
 
-| ID  | Title                                        | Start      | End        | Status |
-| --- | -------------------------------------------- | ---------- | ---------- | ------ |
-| T1  | Learn Lean 4 + Mathlib's convexity hierarchy | 2026-11-05 | 2026-12-01 | todo   |
-| T2  | Select target theorem + sketch proof         | 2026-12-02 | 2027-01-15 | todo   |
-| T3  | Formalize main theorem in Lean 4             | 2027-01-16 | 2027-02-20 | todo   |
-| T4  | Clean proof + write-up                       | 2027-02-21 | 2027-03-10 | todo   |
+| ID  | Title                                        | Status |
+| --- | -------------------------------------------- | ------ |
+| T1  | Learn Lean 4 + Mathlib's convexity hierarchy | todo   |
+| T2  | Select target theorem + sketch proof         | todo   |
+| T3  | Formalize main theorem in Lean 4             | todo   |
+| T4  | Clean proof + write-up                       | todo   |
 
 ## Deliverables
 
