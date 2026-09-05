@@ -88,14 +88,28 @@
     var STORAGE_KEY = 'topics-unlocked';
 
     var lock = document.getElementById('topics-lock');
-    var content = document.getElementById('topics-protected');
     var form = document.getElementById('topics-lock-form');
     var input = document.getElementById('topics-lock-input');
     var error = document.getElementById('topics-lock-error');
 
+    // The protected element comes after this script in the document, so it does
+    // not exist yet when the script runs at parse time. Look it up on demand,
+    // and wait for the parser if it has not been reached yet.
+    function showContent() {
+      var content = document.getElementById('topics-protected');
+      if (content) {
+        content.hidden = false;
+        return;
+      }
+      document.addEventListener('DOMContentLoaded', function () {
+        var el = document.getElementById('topics-protected');
+        if (el) el.hidden = false;
+      });
+    }
+
     function reveal() {
       lock.hidden = true;
-      if (content) content.hidden = false;
+      showContent();
     }
 
     function remembered() {
