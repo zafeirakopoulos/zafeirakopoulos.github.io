@@ -71,7 +71,8 @@ Implement tropical arithmetic, tropical matrix multiplication, and a tropical li
 
 1. D. Speyer and B. Sturmfels. _Tropical Mathematics._
    **Mathematics Magazine**, 82(3):163–173, 2009.
-   [DOI 10.1080/0025570x.2009.11953615](https://doi.org/10.1080/0025570x.2009.11953615)
+   [DOI 10.1080/0025570x.2009.11953615](https://doi.org/10.1080/0025570x.2009.11953615) ·
+   [PDF](/assets/resources/tropical-mathematics-speyer-sturmfels.pdf) (author's arXiv preprint)
 
 2. T. Bogart, A. N. Jensen, D. Speyer, B. Sturmfels, and R. R. Thomas. _Computing tropical varieties._
    **Journal of Symbolic Computation**, 42(1–2):54–73, 2007.
