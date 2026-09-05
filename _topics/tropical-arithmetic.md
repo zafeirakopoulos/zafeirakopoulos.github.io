@@ -45,21 +45,21 @@ Implement tropical arithmetic, tropical matrix multiplication, and a tropical li
 
 ## Milestones
 
-| ID  | Title                                          | Due        |
-| --- | ---------------------------------------------- | ---------- |
-| M1  | Tropical semiring + polynomial evaluation      | 2025-12-01 |
-| M2  | Tropical matrix mult. + shortest-path examples | 2026-01-10 |
-| M3  | Tropical LP solver + comparison to classical   | 2026-02-10 |
-| M4  | Tropical variety of a small example + report   | 2026-03-01 |
+| ID  | Title                                          |
+| --- | ---------------------------------------------- |
+| M1  | Tropical semiring + polynomial evaluation      |
+| M2  | Tropical matrix mult. + shortest-path examples |
+| M3  | Tropical LP solver + comparison to classical   |
+| M4  | Tropical variety of a small example + report   |
 
 ## Tasks
 
-| ID  | Title                                      | Start      | End        | Status |
-| --- | ------------------------------------------ | ---------- | ---------- | ------ |
-| T1  | Tropical semiring arithmetic + polynomials | 2025-11-05 | 2025-12-01 | todo   |
-| T2  | Tropical matrix mult. + Floyd–Warshall     | 2025-12-02 | 2026-01-10 | todo   |
-| T3  | Tropical LP as min-cost flow               | 2026-01-11 | 2026-02-10 | todo   |
-| T4  | Tropical variety example + write-up        | 2026-02-11 | 2026-03-01 | todo   |
+| ID  | Title                                      | Status |
+| --- | ------------------------------------------ | ------ |
+| T1  | Tropical semiring arithmetic + polynomials | todo   |
+| T2  | Tropical matrix mult. + Floyd–Warshall     | todo   |
+| T3  | Tropical LP as min-cost flow               | todo   |
+| T4  | Tropical variety example + write-up        | todo   |
 
 ## Deliverables
 

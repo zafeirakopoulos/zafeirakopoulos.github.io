@@ -49,21 +49,21 @@ Implement Sturm's theorem using subresultant remainders, verify on a suite of po
 
 ## Milestones
 
-| ID  | Title                          | Due        |
-| --- | ------------------------------ | ---------- |
-| M1  | Implement naïve Sturm chain    | 2025-12-01 |
-| M2  | Subresultant version           | 2026-01-10 |
-| M3  | Comparison suite vs. Descartes | 2026-02-10 |
-| M4  | Final report                   | 2026-03-01 |
+| ID  | Title                          |
+| --- | ------------------------------ |
+| M1  | Implement naïve Sturm chain    |
+| M2  | Subresultant version           |
+| M3  | Comparison suite vs. Descartes |
+| M4  | Final report                   |
 
 ## Tasks
 
-| ID  | Title                             | Start      | End        | Status |
-| --- | --------------------------------- | ---------- | ---------- | ------ |
-| T1  | Naive Sturm chain + root count    | 2025-11-05 | 2025-12-01 | todo   |
-| T2  | Subresultant remainder sequence   | 2025-12-02 | 2026-01-10 | todo   |
-| T3  | Descartes isolator for comparison | 2026-01-11 | 2026-02-10 | todo   |
-| T4  | Benchmark suite + write-up        | 2026-02-11 | 2026-03-01 | todo   |
+| ID  | Title                             | Status |
+| --- | --------------------------------- | ------ |
+| T1  | Naive Sturm chain + root count    | todo   |
+| T2  | Subresultant remainder sequence   | todo   |
+| T3  | Descartes isolator for comparison | todo   |
+| T4  | Benchmark suite + write-up        | todo   |
 
 ## Deliverables
 

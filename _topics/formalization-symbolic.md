@@ -39,21 +39,21 @@ Formalize at least one of the above in Lean 4 using Mathlib, producing a self-co
 
 ## Milestones
 
-| ID  | Title                                     | Due        |
-| --- | ----------------------------------------- | ---------- |
-| M1  | Lean 4 + Mathlib setup; integer GCD proof | 2025-12-01 |
-| M2  | Polynomial GCD or Descartes formalization | 2026-01-20 |
-| M3  | Main correctness theorem proved           | 2026-02-20 |
-| M4  | Write-up + clean Lean file                | 2026-03-10 |
+| ID  | Title                                     |
+| --- | ----------------------------------------- |
+| M1  | Lean 4 + Mathlib setup; integer GCD proof |
+| M2  | Polynomial GCD or Descartes formalization |
+| M3  | Main correctness theorem proved           |
+| M4  | Write-up + clean Lean file                |
 
 ## Tasks
 
-| ID  | Title                                      | Start      | End        | Status |
-| --- | ------------------------------------------ | ---------- | ---------- | ------ |
-| T1  | Learn Lean 4 basics + explore Mathlib      | 2025-11-05 | 2025-12-01 | todo   |
-| T2  | Select target theorem + sketch paper proof | 2025-12-02 | 2026-01-10 | todo   |
-| T3  | Formalize main theorem in Lean 4           | 2026-01-11 | 2026-02-20 | todo   |
-| T4  | Clean proof + write-up                     | 2026-02-21 | 2026-03-10 | todo   |
+| ID  | Title                                      | Status |
+| --- | ------------------------------------------ | ------ |
+| T1  | Learn Lean 4 basics + explore Mathlib      | todo   |
+| T2  | Select target theorem + sketch paper proof | todo   |
+| T3  | Formalize main theorem in Lean 4           | todo   |
+| T4  | Clean proof + write-up                     | todo   |
 
 ## Deliverables
 

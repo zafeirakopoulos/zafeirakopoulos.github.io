@@ -29,21 +29,21 @@ Replicate the Lample–Charton integration experiment on a small dataset of rati
 
 ## Milestones
 
-| ID  | Title                                   | Due        |
-| --- | --------------------------------------- | ---------- |
-| M1  | Replicate Lample–Charton on toy dataset | 2025-11-25 |
-| M2  | Formulate algebraic task as seq2seq     | 2025-12-20 |
-| M3  | Benchmark suite + analysis              | 2026-01-30 |
-| M4  | Final report & release                  | 2026-02-28 |
+| ID  | Title                                   |
+| --- | --------------------------------------- |
+| M1  | Replicate Lample–Charton on toy dataset |
+| M2  | Formulate algebraic task as seq2seq     |
+| M3  | Benchmark suite + analysis              |
+| M4  | Final report & release                  |
 
 ## Tasks
 
-| ID  | Title                                    | Start      | End        | Status |
-| --- | ---------------------------------------- | ---------- | ---------- | ------ |
-| T1  | Replicate Lample–Charton experiment      | 2025-11-05 | 2025-11-25 | todo   |
-| T2  | Design algebraic ML task                 | 2025-11-26 | 2025-12-20 | todo   |
-| T3  | Train, evaluate, compare to exact solver | 2025-12-21 | 2026-01-30 | todo   |
-| T4  | Ablations + write-up                     | 2026-01-31 | 2026-02-28 | todo   |
+| ID  | Title                                    | Status |
+| --- | ---------------------------------------- | ------ |
+| T1  | Replicate Lample–Charton experiment      | todo   |
+| T2  | Design algebraic ML task                 | todo   |
+| T3  | Train, evaluate, compare to exact solver | todo   |
+| T4  | Ablations + write-up                     | todo   |
 
 ## Deliverables
 

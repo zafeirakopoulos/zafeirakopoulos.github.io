@@ -42,21 +42,21 @@ Implement LLL over $$\mathbb{Q}$$ (exact arithmetic), verify the size-reduction 
 
 ## Milestones
 
-| ID  | Title                                    | Due        |
-| --- | ---------------------------------------- | ---------- |
-| M1  | Gram–Schmidt orthogonalization (exact)   | 2025-12-01 |
-| M2  | LLL core algorithm with condition checks | 2026-01-15 |
-| M3  | Application: polynomial factoring or SVP | 2026-02-15 |
-| M4  | Final report                             | 2026-03-01 |
+| ID  | Title                                    |
+| --- | ---------------------------------------- |
+| M1  | Gram–Schmidt orthogonalization (exact)   |
+| M2  | LLL core algorithm with condition checks |
+| M3  | Application: polynomial factoring or SVP |
+| M4  | Final report                             |
 
 ## Tasks
 
-| ID  | Title                                   | Start      | End        | Status |
-| --- | --------------------------------------- | ---------- | ---------- | ------ |
-| T1  | Exact rational Gram–Schmidt             | 2025-11-05 | 2025-12-01 | todo   |
-| T2  | LLL reduction loop                      | 2025-12-02 | 2026-01-15 | todo   |
-| T3  | Polynomial factoring or SVP application | 2026-01-16 | 2026-02-15 | todo   |
-| T4  | Benchmark + write-up                    | 2026-02-16 | 2026-03-01 | todo   |
+| ID  | Title                                   | Status |
+| --- | --------------------------------------- | ------ |
+| T1  | Exact rational Gram–Schmidt             | todo   |
+| T2  | LLL reduction loop                      | todo   |
+| T3  | Polynomial factoring or SVP application | todo   |
+| T4  | Benchmark + write-up                    | todo   |
 
 ## Deliverables
 

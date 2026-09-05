@@ -49,21 +49,21 @@ Implement univariate PFD over $$\mathbb{Q}$$, verify against known generating fu
 
 ## Milestones
 
-| ID  | Title                                 | Due        |
-| --- | ------------------------------------- | ---------- |
-| M1  | Squarefree decomposition & Hermite    | 2025-12-10 |
-| M2  | Univariate PFD over $$\mathbb{Q}$$    | 2026-01-15 |
-| M3  | Coefficient extraction & benchmarks   | 2026-02-10 |
-| M4  | Multivariate extension & final report | 2026-03-01 |
+| ID  | Title                                 |
+| --- | ------------------------------------- |
+| M1  | Squarefree decomposition & Hermite    |
+| M2  | Univariate PFD over $$\mathbb{Q}$$    |
+| M3  | Coefficient extraction & benchmarks   |
+| M4  | Multivariate extension & final report |
 
 ## Tasks
 
-| ID  | Title                              | Start      | End        | Status |
-| --- | ---------------------------------- | ---------- | ---------- | ------ |
-| T1  | Implement squarefree decomposition | 2025-11-10 | 2025-12-10 | todo   |
-| T2  | Univariate PFD (CRT-based)         | 2025-12-11 | 2026-01-15 | todo   |
-| T3  | Coefficient extraction from PFD    | 2026-01-16 | 2026-02-10 | todo   |
-| T4  | Multivariate PFD + write-up        | 2026-02-11 | 2026-03-01 | todo   |
+| ID  | Title                              | Status |
+| --- | ---------------------------------- | ------ |
+| T1  | Implement squarefree decomposition | todo   |
+| T2  | Univariate PFD (CRT-based)         | todo   |
+| T3  | Coefficient extraction from PFD    | todo   |
+| T4  | Multivariate PFD + write-up        | todo   |
 
 ## Deliverables
 

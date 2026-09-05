@@ -35,21 +35,21 @@ encodes the complete solution landscape. PO computes this as a rational function
 
 ## Milestones
 
-| ID  | Title                                 | Due        |
-| --- | ------------------------------------- | ---------- |
-| M1  | Replicate PO counting on toy knapsack | 2025-11-25 |
-| M2  | Bound extraction & correctness tests  | 2025-12-20 |
-| M3  | Benchmark suite + analysis            | 2026-01-30 |
-| M4  | Final report & release                | 2026-02-28 |
+| ID  | Title                                 |
+| --- | ------------------------------------- |
+| M1  | Replicate PO counting on toy knapsack |
+| M2  | Bound extraction & correctness tests  |
+| M3  | Benchmark suite + analysis            |
+| M4  | Final report & release                |
 
 ## Tasks
 
-| ID  | Title                                      | Start      | End        | Status |
-| --- | ------------------------------------------ | ---------- | ---------- | ------ |
-| T1  | Implement counting for parametric families | 2025-11-05 | 2025-11-25 | todo   |
-| T2  | Extract bounds from generating functions   | 2025-11-26 | 2025-12-20 | todo   |
-| T3  | Benchmark vs. B&B across sizes             | 2025-12-21 | 2026-01-30 | todo   |
-| T4  | Ablations + write-up                       | 2026-01-31 | 2026-02-28 | todo   |
+| ID  | Title                                      | Status |
+| --- | ------------------------------------------ | ------ |
+| T1  | Implement counting for parametric families | todo   |
+| T2  | Extract bounds from generating functions   | todo   |
+| T3  | Benchmark vs. B&B across sizes             | todo   |
+| T4  | Ablations + write-up                       | todo   |
 
 ## Deliverables
 

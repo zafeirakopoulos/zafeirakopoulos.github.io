@@ -41,21 +41,21 @@ Survey sparse multivariate polynomial representations, implement core rational f
 
 ## Milestones
 
-| ID  | Title                              | Due        |
-| --- | ---------------------------------- | ---------- |
-| M1  | Data structures survey & prototype | 2025-11-25 |
-| M2  | Core arithmetic (add, mul, reduce) | 2025-12-20 |
-| M3  | Partial fraction decomposition     | 2026-01-30 |
-| M4  | Benchmarks & final report          | 2026-02-28 |
+| ID  | Title                              |
+| --- | ---------------------------------- |
+| M1  | Data structures survey & prototype |
+| M2  | Core arithmetic (add, mul, reduce) |
+| M3  | Partial fraction decomposition     |
+| M4  | Benchmarks & final report          |
 
 ## Tasks
 
-| ID  | Title                                      | Start      | End        | Status |
-| --- | ------------------------------------------ | ---------- | ---------- | ------ |
-| T1  | Survey sparse multivariate representations | 2025-11-05 | 2025-11-25 | todo   |
-| T2  | Implement multiplication kernels           | 2025-11-26 | 2025-12-20 | todo   |
-| T3  | Sparse partial fraction pipeline           | 2025-12-21 | 2026-01-30 | todo   |
-| T4  | Benchmarks + write-up                      | 2026-01-31 | 2026-02-28 | todo   |
+| ID  | Title                                      | Status |
+| --- | ------------------------------------------ | ------ |
+| T1  | Survey sparse multivariate representations | todo   |
+| T2  | Implement multiplication kernels           | todo   |
+| T3  | Sparse partial fraction pipeline           | todo   |
+| T4  | Benchmarks + write-up                      | todo   |
 
 ## Deliverables
 

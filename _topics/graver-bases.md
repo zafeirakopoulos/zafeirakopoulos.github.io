@@ -35,21 +35,21 @@ Implement Graver basis computation for small matrices ($$n \leq 10$$), verify ag
 
 ## Milestones
 
-| ID  | Title                                      | Due        |
-| --- | ------------------------------------------ | ---------- |
-| M1  | Hilbert basis computation for small cones  | 2025-12-01 |
-| M2  | Graver basis via sign-compatibility filter | 2026-01-15 |
-| M3  | Augmentation-based ILP solver              | 2026-02-15 |
-| M4  | N-fold example + final report              | 2026-03-01 |
+| ID  | Title                                      |
+| --- | ------------------------------------------ |
+| M1  | Hilbert basis computation for small cones  |
+| M2  | Graver basis via sign-compatibility filter |
+| M3  | Augmentation-based ILP solver              |
+| M4  | N-fold example + final report              |
 
 ## Tasks
 
-| ID  | Title                                      | Start      | End        | Status |
-| --- | ------------------------------------------ | ---------- | ---------- | ------ |
-| T1  | Hilbert basis (Pottier or enumeration)     | 2025-11-05 | 2025-12-01 | todo   |
-| T2  | Graver basis computation                   | 2025-12-02 | 2026-01-15 | todo   |
-| T3  | Augmentation algorithm + correctness tests | 2026-01-16 | 2026-02-15 | todo   |
-| T4  | N-fold ILP case study + write-up           | 2026-02-16 | 2026-03-01 | todo   |
+| ID  | Title                                      | Status |
+| --- | ------------------------------------------ | ------ |
+| T1  | Hilbert basis (Pottier or enumeration)     | todo   |
+| T2  | Graver basis computation                   | todo   |
+| T3  | Augmentation algorithm + correctness tests | todo   |
+| T4  | N-fold ILP case study + write-up           | todo   |
 
 ## Deliverables
 

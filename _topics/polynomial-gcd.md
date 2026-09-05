@@ -33,21 +33,21 @@ Implement all three algorithms for univariate polynomials over $$\mathbb{Z}$$, v
 
 ## Milestones
 
-| ID  | Title                                | Due        |
-| --- | ------------------------------------ | ---------- |
-| M1  | Euclidean + coefficient growth study | 2025-12-01 |
-| M2  | Subresultant PRS implementation      | 2026-01-15 |
-| M3  | Modular GCD + CRT reconstruction     | 2026-02-10 |
-| M4  | Benchmark suite + final report       | 2026-03-01 |
+| ID  | Title                                |
+| --- | ------------------------------------ |
+| M1  | Euclidean + coefficient growth study |
+| M2  | Subresultant PRS implementation      |
+| M3  | Modular GCD + CRT reconstruction     |
+| M4  | Benchmark suite + final report       |
 
 ## Tasks
 
-| ID  | Title                                    | Start      | End        | Status |
-| --- | ---------------------------------------- | ---------- | ---------- | ------ |
-| T1  | Euclidean GCD + coefficient growth plots | 2025-11-05 | 2025-12-01 | todo   |
-| T2  | Subresultant PRS                         | 2025-12-02 | 2026-01-15 | todo   |
-| T3  | Modular GCD with CRT and Hensel lifting  | 2026-01-16 | 2026-02-10 | todo   |
-| T4  | Benchmark + write-up                     | 2026-02-11 | 2026-03-01 | todo   |
+| ID  | Title                                    | Status |
+| --- | ---------------------------------------- | ------ |
+| T1  | Euclidean GCD + coefficient growth plots | todo   |
+| T2  | Subresultant PRS                         | todo   |
+| T3  | Modular GCD with CRT and Hensel lifting  | todo   |
+| T4  | Benchmark + write-up                     | todo   |
 
 ## Deliverables
 
