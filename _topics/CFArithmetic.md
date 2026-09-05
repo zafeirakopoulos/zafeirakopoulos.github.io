@@ -8,7 +8,8 @@ category: topics
 related_publications: false
 difficulty: normal
 level: [undergrad, master]
-areas: [algebra, number-theory,implementation]
+areas: [algebra, number-theory, implementation]
+topic_category: Arithmetic
 urgency: 4
 ---
 
@@ -26,8 +27,7 @@ The key idea is to track a $$2\times2$$ integer matrix (for unary operations) or
 
 The CF arithmetic section begins at Item 101A of the HAKMEM. It is terse but complete; the key insight (a tensor-based homographic algorithm) was not widely understood until the 1990s.
 
-
-## Goal 
+## Goal
 
 Implement "fast and lazy" real arithmetic. Σπεύδε βραδέως (R)
 
@@ -45,7 +45,7 @@ Implement "fast and lazy" real arithmetic. Σπεύδε βραδέως (R)
 
 6. **alcyon** submodule for ScalarArithmetic with full documentation
 
-## Deliverables 
+## Deliverables
 
 - Julia package with tests
 - Reproducible benchmarks
@@ -54,7 +54,7 @@ Implement "fast and lazy" real arithmetic. Σπεύδε βραδέως (R)
 ## References
 
 1. R. W. Gosper. _Continued Fraction Arithmetic_. In **HAKMEM**, MIT AI Memo 239, 1972.
-    [MIT handle](https://hdl.handle.net/1721.1/6086)
+   [MIT handle](https://hdl.handle.net/1721.1/6086)
 
 2. J. E. Vuillemin. _Exact Real Computer Arithmetic with Continued Fractions_.
    **IEEE Transactions on Computers**, 39(8):1087–1105, 1990.

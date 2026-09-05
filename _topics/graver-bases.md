@@ -9,6 +9,7 @@ related_publications: false
 difficulty: difficult
 level: [master, phd]
 areas: [algebra, optimization]
+topic_category: Algebra
 urgency: 5
 ---
 

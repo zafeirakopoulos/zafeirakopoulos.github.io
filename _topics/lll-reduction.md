@@ -9,6 +9,7 @@ related_publications: false
 difficulty: difficult
 level: [master]
 areas: [algebra, number-theory]
+topic_category: Number Theory
 urgency: 4
 ---
 

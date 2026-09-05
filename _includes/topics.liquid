@@ -1,22 +1,6 @@
-{% if topic.difficulty == 'introductory' %}
-  {% assign card_bg = 'rgba(13,110,253,0.08)' %}
-{% elsif topic.difficulty == 'easy' %}
-  {% assign card_bg = 'rgba(25,135,84,0.08)' %}
-{% elsif topic.difficulty == 'normal' %}
-  {% assign card_bg = 'rgba(255,193,7,0.08)' %}
-{% elsif topic.difficulty == 'difficult' %}
-  {% assign card_bg = 'rgba(220,53,69,0.08)' %}
-{% else %}
-  {% assign card_bg = '' %}
-{% endif %}
 <div class="col">
   <a href="{% if topic.redirect %}{{ topic.redirect }}{% else %}{{ topic.url | relative_url }}{% endif %}">
-    <div
-      class="card h-100 hoverable"
-      {% if card_bg != '' %}
-        style="background-color: {{ card_bg }};"
-      {% endif %}
-    >
+    <div class="card h-100 hoverable" data-difficulty="{{ topic.difficulty }}">
       {% if topic.img %}
         {%
           include figure.liquid
@@ -28,10 +12,10 @@
         %}
       {% endif %}
       <div class="card-body">
-        {% include topic_tags.liquid topic=topic hide_difficulty=true %}
         <h2 class="card-title">{{ topic.title }}</h2>
-        <div class="row ml-1 mr-1 p-0">
-          {% if topic.github %}
+        {% include topic_tags.liquid topic=topic hide_difficulty=true %}
+        {% if topic.github %}
+          <div class="row ml-1 mr-1 p-0">
             <div class="github-icon">
               <div class="icon" data-toggle="tooltip" title="Code Repository">
                 <a href="{{ topic.github }}"><i class="fa-brands fa-github gh-icon"></i></a>
@@ -43,8 +27,8 @@
                 </span>
               {% endif %}
             </div>
-          {% endif %}
-        </div>
+          </div>
+        {% endif %}
       </div>
     </div>
   </a>

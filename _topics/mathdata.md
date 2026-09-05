@@ -9,6 +9,7 @@ related_publications: false
 difficulty: normal
 level: [master]
 areas: [big data, machine learning]
+topic_category: Benchmarks
 urgency: 8
 ---
 
@@ -45,5 +46,3 @@ The mathdata project addresses several fundamental problems:
 
 - Repo: [math-data](https://github.com/zafeirakopoulos/math-data)
 - Related: [OpenMath](https://openmath.org/), [MathML](https://en.wikipedia.org/wiki/MathML), [OEIS](https://oeis.org/)
-
-

@@ -654,6 +654,189 @@ footer.sticky-bottom {
   }
 }
 
+// Topics
+
+.topics-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.topics-view-switch {
+  display: inline-flex;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.topics-view-switch button {
+  font-size: 0.85rem;
+  font-family: inherit;
+  padding: 0.4rem 0.9rem;
+  border: 0;
+  background: none;
+  color: var(--global-text-color-light);
+  cursor: pointer;
+
+  &:not(:first-child) {
+    border-left: 1px solid var(--global-divider-color);
+  }
+
+  &.active {
+    background-color: var(--global-theme-color);
+    color: var(--global-hover-text-color);
+  }
+}
+
+.topics-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9rem;
+  font-size: 0.75rem;
+  color: var(--global-text-color-light);
+}
+
+.topics-legend span {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+
+  &::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--global-divider-color);
+  }
+
+  &[data-difficulty="introductory"]::before {
+    background-color: #0d6efd;
+  }
+
+  &[data-difficulty="easy"]::before {
+    background-color: #198754;
+  }
+
+  &[data-difficulty="normal"]::before {
+    background-color: #c9930a;
+  }
+
+  &[data-difficulty="difficult"]::before {
+    background-color: #dc3545;
+  }
+}
+
+.topics-group {
+  h2 {
+    font-size: 1rem;
+    font-weight: 600;
+    color: var(--global-text-color);
+    border-bottom: 1px solid var(--global-divider-color);
+    padding-bottom: 0.4rem;
+    margin: 2rem 0 1rem;
+  }
+
+  &:first-child h2 {
+    margin-top: 0;
+  }
+}
+
+.topics {
+  a {
+    text-decoration: none;
+
+    &:hover .card-title {
+      color: var(--global-theme-color);
+    }
+  }
+
+  .col {
+    padding-bottom: 0.6rem;
+  }
+
+  .card {
+    background-color: var(--global-card-bg-color);
+    border: 1px solid var(--global-divider-color);
+    border-left: 3px solid var(--global-divider-color);
+    border-radius: 5px;
+    transition: border-color 0.15s ease;
+
+    &[data-difficulty="introductory"] {
+      border-left-color: #0d6efd;
+    }
+
+    &[data-difficulty="easy"] {
+      border-left-color: #198754;
+    }
+
+    &[data-difficulty="normal"] {
+      border-left-color: #c9930a;
+    }
+
+    &[data-difficulty="difficult"] {
+      border-left-color: #dc3545;
+    }
+  }
+
+  .card-body {
+    padding: 0.7rem 0.85rem;
+  }
+
+  .card-title {
+    font-size: 0.95rem;
+    font-weight: 600;
+    line-height: 1.32;
+    margin: 0;
+    color: var(--global-text-color);
+  }
+
+  // Reuses topic_tags.liquid's badge markup (bg-secondary/bg-light/bg-dark),
+  // restyled as quiet inline text instead of mdbootstrap's coloured pills.
+  // mdbootstrap sets `.badge { color: #fff !important }` and a box-shadow,
+  // so both need an explicit override here.
+  .topic-tags {
+    display: block;
+    margin: 0.4rem 0 0;
+    font-size: 0.73rem;
+    line-height: 1.55;
+    color: var(--global-text-color-light);
+
+    // bootstrap's .bg-*/.border utilities set background/border with
+    // !important, which otherwise wins over a plain declaration here
+    // regardless of selector specificity.
+    .badge {
+      display: inline;
+      background: none !important;
+      border: 0 !important;
+      border-radius: 0;
+      box-shadow: none;
+      padding: 0;
+      font-size: inherit;
+      font-weight: 400;
+      color: var(--global-text-color-light) !important;
+
+      + .badge::before {
+        content: "·";
+        margin: 0 0.4em;
+        opacity: 0.55;
+      }
+    }
+
+    .bg-secondary {
+      font-weight: 600;
+      color: var(--global-text-color) !important;
+    }
+
+    // Urgency is a bare number here, which reads as noise next to words.
+    .bg-dark {
+      display: none;
+    }
+  }
+}
+
 // Publications
 
 .publications {

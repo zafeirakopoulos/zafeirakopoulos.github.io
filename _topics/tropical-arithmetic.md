@@ -9,6 +9,7 @@ related_publications: false
 difficulty: normal
 level: [master, phd]
 areas: [algebra, geometry, optimization]
+topic_category: Arithmetic
 urgency: 4
 ---
 

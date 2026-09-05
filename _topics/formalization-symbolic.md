@@ -9,6 +9,7 @@ related_publications: false
 difficulty: difficult
 level: [master, phd]
 areas: [algebra]
+topic_category: Algebra
 urgency: 3
 ---
 

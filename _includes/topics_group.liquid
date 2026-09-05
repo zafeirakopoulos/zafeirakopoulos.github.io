@@ -1,0 +1,10 @@
+{% if include.topics.size > 0 %}
+  <div class="topics-group">
+    <h2>{{ include.heading }}</h2>
+    <div class="row row-cols-1 row-cols-md-3">
+      {% for topic in include.topics %}
+        {% include topics.liquid %}
+      {% endfor %}
+    </div>
+  </div>
+{% endif %}

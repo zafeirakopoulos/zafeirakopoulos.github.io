@@ -9,6 +9,7 @@ related_publications: false
 difficulty: easy
 level: [undergrad, master]
 areas: [algebra]
+topic_category: Algebra
 urgency: 4
 ---
 

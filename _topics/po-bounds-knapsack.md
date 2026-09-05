@@ -9,6 +9,7 @@ related_publications: false
 difficulty: normal
 level: [master]
 areas: [optimization, combinatorics]
+topic_category: Combinatorics
 urgency: 6
 ---
 

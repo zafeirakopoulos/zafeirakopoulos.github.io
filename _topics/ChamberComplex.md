@@ -9,6 +9,7 @@ related_publications: false
 difficulty: normal
 level: [master]
 areas: [geometry, combinatorics]
+topic_category: Geometry
 urgency: 5
 ---
 

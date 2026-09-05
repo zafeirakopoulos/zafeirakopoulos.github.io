@@ -9,6 +9,7 @@ related_publications: false
 difficulty: normal
 level: [master, phd]
 areas: [optimization, algebra]
+topic_category: AI
 urgency: 5
 ---
 
