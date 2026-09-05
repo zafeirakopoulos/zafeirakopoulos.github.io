@@ -97,7 +97,10 @@
         },
       {%- endfor -%}
       {%- for collection in site.collections -%}
-        {%- if collection.label != 'posts' -%}
+        {%- comment -%}
+          'topics' is password protected, so it is kept out of the search index.
+        {%- endcomment -%}
+        {%- if collection.label != 'posts' and collection.label != 'topics' -%}
           {%- for item in collection.docs -%}
             {
               {%- if item.inline -%}

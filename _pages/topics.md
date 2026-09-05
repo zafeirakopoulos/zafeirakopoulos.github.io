@@ -10,7 +10,10 @@ horizontal: false
 ---
 
 <!-- pages/topics.md -->
-<div class="topics">
+
+{% include topics_lock.liquid %}
+
+<div class="topics" id="topics-protected" hidden>
 {% assign sorted_topics = site.topics | sort: "importance" %}
   {% if page.horizontal %}
     <div class="container">

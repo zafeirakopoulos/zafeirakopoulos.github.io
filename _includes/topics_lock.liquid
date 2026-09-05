@@ -1,0 +1,149 @@
+{% comment %}
+  Password gate for the topics pages.
+
+  Hides the element with id="topics-protected" until the visitor types the
+  right password, then remembers the unlock in localStorage.
+
+  This is a deterrent, not real security: the page is a static file, so the
+  protected markup is still present in the HTML source for anyone who looks.
+{% endcomment %}
+
+<div class="topics-lock" id="topics-lock">
+  <div class="topics-lock-card">
+    <h3 class="topics-lock-title">Προστατευμένη σελίδα</h3>
+    <p class="topics-lock-text">Δώστε τον κωδικό για να δείτε τα θέματα εργασιών.</p>
+    <form class="topics-lock-form" id="topics-lock-form" autocomplete="off">
+      <label class="topics-lock-label" for="topics-lock-input">Κωδικός</label>
+      <input class="topics-lock-input" id="topics-lock-input" type="password" name="topics-password" autocomplete="off" required>
+      <button class="topics-lock-button" type="submit">Είσοδος</button>
+    </form>
+    <p class="topics-lock-error" id="topics-lock-error" hidden>Λάθος κωδικός. Δοκιμάστε ξανά.</p>
+    <noscript>
+      <p class="topics-lock-error">Χρειάζεται JavaScript για την πρόσβαση σε αυτή τη σελίδα.</p>
+    </noscript>
+  </div>
+</div>
+
+<style>
+  .topics-lock {
+    max-width: 26rem;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 8px;
+    background-color: var(--global-card-bg-color);
+  }
+
+  .topics-lock-title {
+    margin-top: 0;
+    font-size: 1.25rem;
+  }
+
+  .topics-lock-text {
+    color: var(--global-text-color-light);
+  }
+
+  .topics-lock-label {
+    display: block;
+    margin-bottom: 0.25rem;
+    font-size: 0.9rem;
+    color: var(--global-text-color-light);
+  }
+
+  .topics-lock-input {
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid var(--global-divider-color);
+    border-radius: 4px;
+    background-color: var(--global-bg-color);
+    color: var(--global-text-color);
+  }
+
+  .topics-lock-input:focus {
+    outline: none;
+    border-color: var(--global-theme-color);
+  }
+
+  .topics-lock-button {
+    margin-top: 0.75rem;
+    padding: 0.5rem 1.25rem;
+    border: 1px solid var(--global-theme-color);
+    border-radius: 4px;
+    background-color: var(--global-theme-color);
+    color: var(--global-hover-text-color);
+    cursor: pointer;
+  }
+
+  .topics-lock-error {
+    margin-top: 0.75rem;
+    margin-bottom: 0;
+    color: #dc3545;
+  }
+</style>
+
+<script>
+  (function () {
+    // sha256("<password>"), so the password itself is not in the page source.
+    var PASSWORD_HASH = 'a91fb8bfaf0662e166c01cff2f3bb9bb45d1ff763ef9fe3ed260064edaacbbe1';
+    var STORAGE_KEY = 'topics-unlocked';
+
+    var lock = document.getElementById('topics-lock');
+    var content = document.getElementById('topics-protected');
+    var form = document.getElementById('topics-lock-form');
+    var input = document.getElementById('topics-lock-input');
+    var error = document.getElementById('topics-lock-error');
+
+    function reveal() {
+      lock.hidden = true;
+      if (content) content.hidden = false;
+    }
+
+    function remembered() {
+      try {
+        // Storing the hash means a changed password invalidates old unlocks.
+        return window.localStorage.getItem(STORAGE_KEY) === PASSWORD_HASH;
+      } catch (e) {
+        return false;
+      }
+    }
+
+    function remember() {
+      try {
+        window.localStorage.setItem(STORAGE_KEY, PASSWORD_HASH);
+      } catch (e) {
+        /* private mode or storage disabled: unlock lasts for this page only */
+      }
+    }
+
+    function sha256(text) {
+      var bytes = new TextEncoder().encode(text);
+      return window.crypto.subtle.digest('SHA-256', bytes).then(function (buffer) {
+        return Array.prototype.map
+          .call(new Uint8Array(buffer), function (b) {
+            return b.toString(16).padStart(2, '0');
+          })
+          .join('');
+      });
+    }
+
+    if (remembered()) {
+      reveal();
+      return;
+    }
+
+    form.addEventListener('submit', function (event) {
+      event.preventDefault();
+      error.hidden = true;
+      sha256(input.value).then(function (hash) {
+        if (hash === PASSWORD_HASH) {
+          remember();
+          reveal();
+        } else {
+          error.hidden = false;
+          input.value = '';
+          input.focus();
+        }
+      });
+    });
+  })();
+</script>

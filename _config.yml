@@ -290,6 +290,19 @@ defaults:
       path: "assets"
     values:
       sitemap: false
+  # The topics pages are password protected, but the markup is still in the
+  # served HTML, so keep them out of sitemaps and search engine indexes.
+  - scope:
+      path: ""
+      type: "topics"
+    values:
+      sitemap: false
+      noindex: true
+  - scope:
+      path: "_pages/topics.md"
+    values:
+      sitemap: false
+      noindex: true
 
 sass:
   style: compressed
