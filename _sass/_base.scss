@@ -837,6 +837,15 @@ footer.sticky-bottom {
   }
 }
 
+// The individual topic page (topic.liquid) is not wrapped in .topics, so
+// the override above never reaches it. Its "area" tags use bg-light
+// text-dark, but mdbootstrap's `.badge { color: #fff !important }` loads
+// after bootstrap's `.text-dark` and wins, leaving white text on a
+// near-white background.
+.topic-tags .badge.bg-light {
+  color: var(--global-text-color) !important;
+}
+
 // Publications
 
 .publications {
