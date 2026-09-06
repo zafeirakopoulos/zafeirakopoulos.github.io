@@ -70,7 +70,8 @@ Formalize at least one of the above in Lean 4 using Mathlib, producing a self-co
 
 1. The mathlib Community. _The Lean mathematical library._
    CPP 2020, pp. 367–381, ACM.
-   [DOI 10.1145/3372885.3373824](https://doi.org/10.1145/3372885.3373824)
+   [DOI 10.1145/3372885.3373824](https://doi.org/10.1145/3372885.3373824) ·
+   [arXiv:1910.09336](https://arxiv.org/abs/1910.09336)
 
 2. T. A. de Lima, A. B. Avelar, A. L. Galdino, and M. Ayala-Rincón. _Formalizing Factorization on Euclidean Domains and Abstract Euclidean Algorithms._
    **EPTCS**, 402:18–33, 2024.
@@ -78,4 +79,5 @@ Formalize at least one of the above in Lean 4 using Mathlib, producing a self-co
 
 3. W. Li and L. C. Paulson. _Counting polynomial roots in Isabelle/HOL: a formal proof of the Budan-Fourier theorem._
    CPP 2019, pp. 52–64, ACM.
-   [DOI 10.1145/3293880.3294092](https://doi.org/10.1145/3293880.3294092)
+   [DOI 10.1145/3293880.3294092](https://doi.org/10.1145/3293880.3294092) ·
+   [arXiv:1811.11093](https://arxiv.org/abs/1811.11093)

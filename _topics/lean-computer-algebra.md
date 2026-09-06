@@ -68,7 +68,8 @@ Implement one executable computer algebra primitive (polynomial GCD or a small G
 
 1. J. H. Davenport. _First Steps Towards Computational Polynomials in Lean._
    SYNASC 2024, IEEE.
-   [DOI 10.1109/synasc65383.2024.00019](https://doi.org/10.1109/synasc65383.2024.00019)
+   [DOI 10.1109/synasc65383.2024.00019](https://doi.org/10.1109/synasc65383.2024.00019) ·
+   [arXiv:2408.04564](https://arxiv.org/abs/2408.04564)
 
 2. J. Guo, H. Shen, J. Liu, and L. Zhi. _Formalizing Gröbner Basis Theory in Lean._
    arXiv:2602.12772, 2026.

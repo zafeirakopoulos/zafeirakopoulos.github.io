@@ -62,4 +62,5 @@ The mathdata project addresses several fundamental problems:
 
 2. A. Heinle and V. Levandovskyy. _The SDEval benchmarking toolkit._
    **ACM Communications in Computer Algebra**, 49(1):1–9, 2015.
-   [DOI 10.1145/2768577.2768578](https://doi.org/10.1145/2768577.2768578)
+   [DOI 10.1145/2768577.2768578](https://doi.org/10.1145/2768577.2768578) ·
+   [PDF](https://symbolicdata.github.io/Papers/cca-15.pdf) (self-hosted by the SymbolicData project)

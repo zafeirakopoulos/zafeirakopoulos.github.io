@@ -76,4 +76,5 @@ Implement tropical arithmetic, tropical matrix multiplication, and a tropical li
 
 2. T. Bogart, A. N. Jensen, D. Speyer, B. Sturmfels, and R. R. Thomas. _Computing tropical varieties._
    **Journal of Symbolic Computation**, 42(1–2):54–73, 2007.
-   [DOI 10.1016/j.jsc.2006.02.004](https://doi.org/10.1016/j.jsc.2006.02.004)
+   [DOI 10.1016/j.jsc.2006.02.004](https://doi.org/10.1016/j.jsc.2006.02.004) ·
+   [arXiv:math/0507563](https://arxiv.org/abs/math/0507563)

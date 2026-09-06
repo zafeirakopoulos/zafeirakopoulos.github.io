@@ -45,6 +45,7 @@ This yields:
 
 2. F. Breuer and Z. Zafeirakopoulos. _Polyhedral Omega: a New Algorithm for Solving Linear Diophantine Systems._
    **Annals of Combinatorics**, 21(2):211–280, 2017.
+   [DOI 10.1007/s00026-017-0349-x](https://doi.org/10.1007/s00026-017-0349-x)
 
 3. S. Verdoolaege, R. Seghir, K. Beyls, V. Loechner, and M. Bruynooghe. _Counting Integer Points in Parametric Polytopes Using Barvinok's Rational Functions._
    **Algorithmica**, 48(1):37–66, 2007.

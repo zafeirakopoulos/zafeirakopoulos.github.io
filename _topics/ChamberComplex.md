@@ -65,3 +65,4 @@ Study the definition and properties of chamber complexes, implement a basic algo
 
 4. F. Breuer and Z. Zafeirakopoulos. _Polyhedral Omega: a New Algorithm for Solving Linear Diophantine Systems._
    **Annals of Combinatorics**, 21(2):211–280, 2017.
+   [DOI 10.1007/s00026-017-0349-x](https://doi.org/10.1007/s00026-017-0349-x)

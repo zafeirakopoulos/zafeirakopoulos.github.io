@@ -79,4 +79,5 @@ Implement Sturm's theorem using subresultant remainders, verify on a suite of po
 
 2. M. Sagraloff and K. Mehlhorn. _Computing real roots of real polynomials._
    **Journal of Symbolic Computation**, 73:46–86, 2016.
-   [DOI 10.1016/j.jsc.2015.03.004](https://doi.org/10.1016/j.jsc.2015.03.004)
+   [DOI 10.1016/j.jsc.2015.03.004](https://doi.org/10.1016/j.jsc.2015.03.004) ·
+   [arXiv:1308.4088](https://arxiv.org/abs/1308.4088)

@@ -72,4 +72,5 @@ Formalize Farkas' lemma (or a comparably load-bearing polyhedral theorem) in Lea
 
 2. X. Allamigeon and R. D. Katz. _A Formalization of Convex Polyhedra Based on the Simplex Method._
    **Journal of Automated Reasoning**, 63(2):323–345, 2018.
-   [DOI 10.1007/s10817-018-9477-1](https://doi.org/10.1007/s10817-018-9477-1)
+   [DOI 10.1007/s10817-018-9477-1](https://doi.org/10.1007/s10817-018-9477-1) ·
+   [arXiv:1706.10269](https://arxiv.org/abs/1706.10269)

@@ -128,4 +128,4 @@ Reproduce the split, fill, and expand algorithms (in Sage, Julia, or a CAS of yo
    [PDF](https://ajc.maths.uq.edu.au/pdf/47/ajc_v47_p011.pdf)
 
 4. A. V. Geramita and J. Seberry. _Orthogonal Designs: Quadratic Forms and Hadamard Matrices._
-   Lecture Notes in Pure and Applied Mathematics, vol. 45, Marcel Dekker, 1979.
+   Lecture Notes in Pure and Applied Mathematics, vol. 45, Marcel Dekker, 1979. Out of print, not available online; for a modern treatment see J. Seberry, _Orthogonal Designs: Hadamard Matrices, Quadratic Forms and Algebras_, Springer, 2017 ([DOI 10.1007/978-3-319-59032-5](https://doi.org/10.1007/978-3-319-59032-5), also not freely available).

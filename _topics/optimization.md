@@ -49,10 +49,12 @@ Barvinok's algorithm (1994) counts integer points in a polytope in polynomial ti
 
 2. F. Breuer and Z. Zafeirakopoulos. _Polyhedral Omega: a New Algorithm for Solving Linear Diophantine Systems._
    **Annals of Combinatorics**, 21(2):211–280, 2017.
+   [DOI 10.1007/s00026-017-0349-x](https://doi.org/10.1007/s00026-017-0349-x)
 
 3. S. Verdoolaege, R. Seghir, K. Beyls, V. Loechner, and M. Bruynooghe. _Counting Integer Points in Parametric Polytopes Using Barvinok's Rational Functions._
    **Algorithmica**, 48(1):37–66, 2007.
    [DOI 10.1007/s00453-006-1231-0](https://doi.org/10.1007/s00453-006-1231-0)
 
 4. T. Ayyildiz, D. N. Demirel, I. Tapan, and Z. Zafeirakopoulos. _A Julia Package for Polyhedral Omega and Applications._
-   MACIS 2024.
+   **ACM Communications in Computer Algebra**, 58(2):39–42, 2024.
+   [DOI 10.1145/3712023.3712029](https://doi.org/10.1145/3712023.3712029)

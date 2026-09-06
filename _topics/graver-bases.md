@@ -65,7 +65,8 @@ Implement Graver basis computation for small matrices ($$n \leq 10$$), verify ag
 
 2. J. A. De Loera, R. Hemmecke, S. Onn, and R. Weismantel. _$$N$$-fold integer programming._
    **Discrete Optimization**, 5(2):231–241, 2008.
-   [DOI 10.1016/j.disopt.2006.06.006](https://doi.org/10.1016/j.disopt.2006.06.006)
+   [DOI 10.1016/j.disopt.2006.06.006](https://doi.org/10.1016/j.disopt.2006.06.006) ·
+   [arXiv:math/0605242](https://arxiv.org/abs/math/0605242)
 
 3. A. I. Barvinok. _A Polynomial Time Algorithm for Counting Integral Points in Polyhedra When the Dimension is Fixed._
    **Mathematics of Operations Research**, 19(4):769–779, 1994.

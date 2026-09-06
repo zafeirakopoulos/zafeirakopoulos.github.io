@@ -54,10 +54,13 @@ Study the Collins–Akritas algorithm in detail (correctness proof, termination,
 
 2. M. Sagraloff and K. Mehlhorn. _Computing real roots of real polynomials._
    **Journal of Symbolic Computation**, 73:46–86, 2016.
-   [DOI 10.1016/j.jsc.2015.03.004](https://doi.org/10.1016/j.jsc.2015.03.004)
+   [DOI 10.1016/j.jsc.2015.03.004](https://doi.org/10.1016/j.jsc.2015.03.004) ·
+   [arXiv:1308.4088](https://arxiv.org/abs/1308.4088)
 
 3. Z. Zafeirakopoulos. _Study and Benchmarks for Real Root Isolation Methods._
-   Master's thesis, 2008.
+   Master's thesis, 2008. Not available online; see reference 4 below for the published cross-benchmarking results from the same work.
 
-4. M. Hemmer, E. Tsigaridas, Z. Zafeirakopoulos, et al. _Experimental evaluation and cross-benchmarking of univariate real solvers._
-   SNC 2009, ACM.
+4. M. Hemmer, E. P. Tsigaridas, Z. Zafeirakopoulos, I. Z. Emiris, M. I. Karavelas, and B. Mourrain. _Experimental evaluation and cross-benchmarking of univariate real solvers._
+   SNC 2009, pp. 45–54, ACM.
+   [DOI 10.1145/1577190.1577202](https://doi.org/10.1145/1577190.1577202) ·
+   [PDF]({{ '/assets/pdf/papers/2009_SNC.pdf' | relative_url }})
