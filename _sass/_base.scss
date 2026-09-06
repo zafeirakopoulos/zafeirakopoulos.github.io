@@ -842,8 +842,16 @@ footer.sticky-bottom {
 // text-dark, but mdbootstrap's `.badge { color: #fff !important }` loads
 // after bootstrap's `.text-dark` and wins, leaving white text on a
 // near-white background.
+//
+// This needs a fixed dark colour, not var(--global-text-color): bg-light's
+// background is bootstrap's static #f8f9fa in both themes (nothing here
+// makes it theme-aware), but the text variable turns near-white (#e8e8e8)
+// in dark mode, which is a 1.16:1 contrast ratio against that background -
+// effectively invisible. bootstrap's own .text-dark value has a 10.9:1
+// ratio against #f8f9fa and works in both themes since the background
+// never changes.
 .topic-tags .badge.bg-light {
-  color: var(--global-text-color) !important;
+  color: #343a40 !important;
 }
 
 // Publications
